@@ -1,0 +1,8 @@
+#检查端登录用户名和密码
+acqlogin:
+  user: "szjc1"
+  pass: "123456"
+
+gghlogin:
+  user: "qdrsh"
+  pass: "123456"

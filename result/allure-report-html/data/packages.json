@@ -1,0 +1,45 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testCase.test_check_report",
+    "children" : [ {
+      "name" : "test_01[1.0-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\acqMain_Page_Data.yaml-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\loginData.yaml-D:\\pythonProject\\pcclient_UI\\testData\\inputData\\login_input_data-Aquarium.Ecg.Client.Shell.exe-D:/NLEMR/RestingECG-D:\\pythonProject\\pcclient_UI\\testFile\\screenshot\\申请诊断成功.png]",
+      "uid" : "62c00f9422e6a308",
+      "parentUid" : "d8a01072d6f462dd69e3ce3aadca57a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632996034587,
+        "stop" : 1632996118275,
+        "duration" : 83688
+      },
+      "flaky" : false,
+      "parameters" : [ "'D:\\pythonProject\\pcclient_UI\\testFile\\screenshot\\申请诊断成功.png'", "1.0", "'Aquarium.Ecg.Client.Shell.exe'", "'D:/NLEMR/RestingECG'", "'D:\\pythonProject\\pcclient_UI\\testData\\pageData\\acqMain_Page_Data.yaml'", "'D:\\pythonProject\\pcclient_UI\\testData\\inputData\\login_input_data'", "'D:\\pythonProject\\pcclient_UI\\testData\\pageData\\loginData.yaml'" ]
+    }, {
+      "name" : "test_02",
+      "uid" : "2484d599c32a5966",
+      "parentUid" : "d8a01072d6f462dd69e3ce3aadca57a2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632996118281,
+        "stop" : 1632996118281,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_03",
+      "uid" : "ce5e783e6a92c31f",
+      "parentUid" : "d8a01072d6f462dd69e3ce3aadca57a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632996118312,
+        "stop" : 1632996118312,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testCase.test_check_report"
+  } ]
+}

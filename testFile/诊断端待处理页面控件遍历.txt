@@ -1,0 +1,1443 @@
+D:\pythonProject\pcclient_UI\venv\Scripts\python.exe D:/pythonProject/pcclient_UI/demo.py
+<generator object process_iter at 0x000001824453D548>
+8208
+Control Identifiers:
+
+Dialog - '心电医生工作站'    (L0, T0, R1920, B1050)
+['Dialog', '心电医生工作站', '心电医生工作站Dialog', 'Dialog0', 'Dialog1']
+child_window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
+   | 
+   | Pane - ''    (L0, T48, R1920, B1050)
+   | ['Pane', 'bsiLogoPane', 'Pane0', 'Pane1', 'bsiLogoPane0', 'bsiLogoPane1']
+   | child_window(auto_id="PnlMain", control_type="Pane")
+   |    | 
+   |    | TabControl - ''    (L0, T48, R1920, B1050)
+   |    | ['TabControl', 'TabControl静息心电', 'bsiLogoTabControl', 'TabControl0', 'TabControl1']
+   |    | child_window(auto_id="TbControl", control_type="Tab")
+   |    |    | 
+   |    |    | Pane - '静息心电'    (L1, T82, R1919, B1049)
+   |    |    | ['Pane2', '静息心电Pane', '静息心电', '静息心电Pane0', '静息心电Pane1', '静息心电0', '静息心电1']
+   |    |    | child_window(title="静息心电", auto_id="DiagRestingEcg", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - '静息心电'    (L1, T82, R1919, B1049)
+   |    |    |    | ['Pane3', '静息心电Pane2', '静息心电2']
+   |    |    |    | child_window(title="静息心电", auto_id="DiagRestingEcg", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'PnlMain'    (L323, T82, R1919, B1049)
+   |    |    |    |    | ['PnlMainPane', 'Pane4', 'PnlMain']
+   |    |    |    |    | child_window(title="PnlMain", auto_id="PnlMain", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TabControl - ''    (L336, T95, R1906, B1035)
+   |    |    |    |    |    | ['TabControl处理中(63)', 'bsiTitleTabControl', 'TabControl待处理(35)', 'TabControl已处理', 'TabControl2']
+   |    |    |    |    |    | child_window(auto_id="XtcDiagnosis", control_type="Tab")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - '待处理(35)'    (L337, T129, R1905, B1034)
+   |    |    |    |    |    |    | ['Pane5', '待处理(35)', '待处理(35)Pane', '待处理(35)0', '待处理(35)1']
+   |    |    |    |    |    |    | child_window(title="待处理(35)", auto_id="XtpTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - ''    (L337, T179, R1905, B1034)
+   |    |    |    |    |    |    |    | ['Pane6', '内院, 外院, 未分组Pane']
+   |    |    |    |    |    |    |    | child_window(auto_id="GridTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Table - ''    (L344, T179, R1898, B990)
+   |    |    |    |    |    |    |    |    | ['内院, 外院, 未分组Table', 'Table', 'Table0', 'Table1']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="GridControl", control_type="Table")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Custom - '表头面板'    (L344, T179, R1898, B217)
+   |    |    |    |    |    |    |    |    |    | ['Custom', '表头面板Custom', '表头面板', 'Custom0', 'Custom1']
+   |    |    |    |    |    |    |    |    |    | child_window(title="表头面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '序号'    (L344, T179, R412, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['序号', 'Header', '序号Header', 'Header0', 'Header1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="序号", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '状态'    (L412, T179, R651, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['状态Header', 'Header2', '状态']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="状态", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '来源'    (L651, T179, R725, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['来源', 'Header3', '来源Header', '来源0', '来源1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="来源", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '受检者标识'    (L725, T179, R861, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['受检者标识Header', '受检者标识', 'Header4', '受检者标识0', '受检者标识1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '受检者信息'    (L861, T179, R1065, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['Header5', '受检者信息Header', '受检者信息']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '检查项目'    (L1065, T179, R1269, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['检查项目', 'Header6', '检查项目Header']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '检查机构'    (L1269, T179, R1439, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['Header7', '检查机构', '检查机构Header', '检查机构0', '检查机构1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '检查科室'    (L1439, T179, R1609, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['Header8', '检查科室Header', '检查科室', '检查科室0', '检查科室1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '检查医生'    (L1609, T179, R1722, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['检查医生', 'Header9', '检查医生Header']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Header - '检查时间'    (L1722, T179, R1899, B217)
+   |    |    |    |    |    |    |    |    |    |    | ['检查时间Header', '检查时间', 'Header10', '检查时间0', '检查时间1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间", control_type="Header")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Custom - '数据面板'    (L344, T217, R1898, B990)
+   |    |    |    |    |    |    |    |    |    | ['数据面板', 'Custom2', '数据面板Custom']
+   |    |    |    |    |    |    |    |    |    | child_window(title="数据面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 1'    (L344, T217, R1898, B255)
+   |    |    |    |    |    |    |    |    |    |    | ['行 1', 'Custom3', '行 1Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 1", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 0'    (L344, T217, R412, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 0', '序号 row 0DataItem', 'DataItem', 'DataItem0', 'DataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 0'    (L412, T217, R651, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 0DataItem', 'DataItem2', '状态 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 0'    (L651, T217, R725, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 0', '来源 row 0DataItem', 'DataItem3']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 0'    (L725, T217, R861, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 0', 'DataItem4', '受检者标识 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 0'    (L861, T217, R1065, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 0', '受检者信息 row 0DataItem', 'DataItem5']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 0'    (L1065, T217, R1269, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 0DataItem', '检查项目 row 0', 'DataItem6']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 0'    (L1269, T217, R1439, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 0', 'DataItem7', '检查机构 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 0'    (L1439, T217, R1609, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 0', '检查科室 row 0DataItem', 'DataItem8']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 0'    (L1609, T217, R1722, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 0', '检查医生 row 0DataItem', 'DataItem9']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 0'    (L1722, T217, R1899, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 0DataItem', '检查时间 row 0', 'DataItem10']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 2'    (L344, T255, R1898, B293)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom4', '行 2', '行 2Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 2", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 1'    (L344, T255, R412, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 1', '序号 row 1DataItem', 'DataItem11']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 1'    (L412, T255, R651, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 1', '状态 row 1DataItem', 'DataItem12']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 1'    (L651, T255, R725, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 1', '来源 row 1DataItem', 'DataItem13']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 1'    (L725, T255, R861, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 1', '受检者标识 row 1DataItem', 'DataItem14']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 1'    (L861, T255, R1065, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 1', '受检者信息 row 1DataItem', 'DataItem15']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 1'    (L1065, T255, R1269, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 1', '检查项目 row 1DataItem', 'DataItem16']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 1'    (L1269, T255, R1439, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 1', '检查机构 row 1DataItem', 'DataItem17']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 1'    (L1439, T255, R1609, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 1DataItem', '检查科室 row 1', 'DataItem18']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 1'    (L1609, T255, R1722, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 1DataItem', '检查医生 row 1', 'DataItem19']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 1'    (L1722, T255, R1899, B292)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 1', '检查时间 row 1DataItem', 'DataItem20']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 3'    (L344, T293, R1898, B331)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom5', '行 3', '行 3Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 3", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 2'    (L344, T293, R412, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 2DataItem', '序号 row 2', 'DataItem21']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 2'    (L412, T293, R651, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 2', '状态 row 2DataItem', 'DataItem22']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 2'    (L651, T293, R725, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 2', '来源 row 2DataItem', 'DataItem23']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 2'    (L725, T293, R861, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 2DataItem', '受检者标识 row 2', 'DataItem24']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 2'    (L861, T293, R1065, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 2DataItem', '受检者信息 row 2', 'DataItem25']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 2'    (L1065, T293, R1269, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 2', '检查项目 row 2DataItem', 'DataItem26']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 2'    (L1269, T293, R1439, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 2', '检查机构 row 2DataItem', 'DataItem27']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 2'    (L1439, T293, R1609, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 2DataItem', 'DataItem28', '检查科室 row 2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 2'    (L1609, T293, R1722, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 2DataItem', 'DataItem29', '检查医生 row 2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 2'    (L1722, T293, R1899, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 2DataItem', '检查时间 row 2', 'DataItem30']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 4'    (L344, T331, R1898, B369)
+   |    |    |    |    |    |    |    |    |    |    | ['行 4Custom', 'Custom6', '行 4']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 4", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 3'    (L344, T331, R412, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 3DataItem', '序号 row 3', 'DataItem31']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 3'    (L412, T331, R651, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 3', '状态 row 3DataItem', 'DataItem32']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 3'    (L651, T331, R725, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 3', '来源 row 3DataItem', 'DataItem33']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 3'    (L725, T331, R861, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 3', 'DataItem34', '受检者标识 row 3DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 3'    (L861, T331, R1065, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 3', '受检者信息 row 3DataItem', 'DataItem35']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 3'    (L1065, T331, R1269, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 3', 'DataItem36', '检查项目 row 3DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 3'    (L1269, T331, R1439, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['DataItem37', '检查机构 row 3', '检查机构 row 3DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 3'    (L1439, T331, R1609, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 3DataItem', '检查科室 row 3', 'DataItem38']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 3'    (L1609, T331, R1722, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 3DataItem', '检查医生 row 3', 'DataItem39']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 3'    (L1722, T331, R1899, B368)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 3DataItem', '检查时间 row 3', 'DataItem40']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 5'    (L344, T369, R1898, B407)
+   |    |    |    |    |    |    |    |    |    |    | ['行 5', 'Custom7', '行 5Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 5", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 4'    (L344, T369, R412, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 4DataItem', '序号 row 4', 'DataItem41']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 4'    (L412, T369, R651, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 4', '状态 row 4DataItem', 'DataItem42']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 4'    (L651, T369, R725, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 4DataItem', '来源 row 4', 'DataItem43']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 4'    (L725, T369, R861, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 4DataItem', '受检者标识 row 4', 'DataItem44']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 4'    (L861, T369, R1065, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 4DataItem', 'DataItem45', '受检者信息 row 4']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 4'    (L1065, T369, R1269, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 4', '检查项目 row 4DataItem', 'DataItem46']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 4'    (L1269, T369, R1439, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 4DataItem', '检查机构 row 4', 'DataItem47']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 4'    (L1439, T369, R1609, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 4DataItem', '检查科室 row 4', 'DataItem48']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 4'    (L1609, T369, R1722, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 4', '检查医生 row 4DataItem', 'DataItem49']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 4'    (L1722, T369, R1899, B406)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 4DataItem', '检查时间 row 4', 'DataItem50']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 4", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 6'    (L344, T407, R1898, B445)
+   |    |    |    |    |    |    |    |    |    |    | ['行 6', 'Custom8', '行 6Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 6", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 5'    (L344, T407, R412, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 5', '序号 row 5DataItem', 'DataItem51']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 5'    (L412, T407, R651, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 5', '状态 row 5DataItem', 'DataItem52']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 5'    (L651, T407, R725, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 5DataItem', 'DataItem53', '来源 row 5']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 5'    (L725, T407, R861, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 5', 'DataItem54', '受检者标识 row 5DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 5'    (L861, T407, R1065, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 5DataItem', '受检者信息 row 5', 'DataItem55']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 5'    (L1065, T407, R1269, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 5', '检查项目 row 5DataItem', 'DataItem56']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 5'    (L1269, T407, R1439, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 5', '检查机构 row 5DataItem', 'DataItem57']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 5'    (L1439, T407, R1609, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 5DataItem', '检查科室 row 5', 'DataItem58']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 5'    (L1609, T407, R1722, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 5DataItem', '检查医生 row 5', 'DataItem59']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 5'    (L1722, T407, R1899, B444)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 5DataItem', '检查时间 row 5', 'DataItem60']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 5", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 7'    (L344, T445, R1898, B483)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom9', '行 7', '行 7Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 7", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 6'    (L344, T445, R412, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 6', '序号 row 6DataItem', 'DataItem61']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 6'    (L412, T445, R651, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 6', '状态 row 6DataItem', 'DataItem62']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 6'    (L651, T445, R725, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 6DataItem', 'DataItem63', '来源 row 6']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 6'    (L725, T445, R861, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 6DataItem', '受检者标识 row 6', 'DataItem64']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 6'    (L861, T445, R1065, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 6', '受检者信息 row 6DataItem', 'DataItem65']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 6'    (L1065, T445, R1269, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 6', '检查项目 row 6DataItem', 'DataItem66']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 6'    (L1269, T445, R1439, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 6DataItem', '检查机构 row 6', 'DataItem67']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 6'    (L1439, T445, R1609, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 6', '检查科室 row 6DataItem', 'DataItem68']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 6'    (L1609, T445, R1722, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 6DataItem', '检查医生 row 6', 'DataItem69']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 6'    (L1722, T445, R1899, B482)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 6DataItem', '检查时间 row 6', 'DataItem70']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 6", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 8'    (L344, T483, R1898, B521)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom10', '行 8', '行 8Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 8", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 7'    (L344, T483, R412, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 7DataItem', '序号 row 7', 'DataItem71']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 7'    (L412, T483, R651, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 7', '状态 row 7DataItem', 'DataItem72']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 7'    (L651, T483, R725, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 7', '来源 row 7DataItem', 'DataItem73']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 7'    (L725, T483, R861, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 7DataItem', 'DataItem74', '受检者标识 row 7']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 7'    (L861, T483, R1065, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 7DataItem', '受检者信息 row 7', 'DataItem75']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 7'    (L1065, T483, R1269, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 7DataItem', '检查项目 row 7', 'DataItem76']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 7'    (L1269, T483, R1439, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 7DataItem', '检查机构 row 7', 'DataItem77']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 7'    (L1439, T483, R1609, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 7', '检查科室 row 7DataItem', 'DataItem78']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 7'    (L1609, T483, R1722, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 7', '检查医生 row 7DataItem', 'DataItem79']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 7'    (L1722, T483, R1899, B520)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 7', '检查时间 row 7DataItem', 'DataItem80']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 7", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 9'    (L344, T521, R1898, B559)
+   |    |    |    |    |    |    |    |    |    |    | ['行 9Custom', 'Custom11', '行 9']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 9", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 8'    (L344, T521, R412, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 8', '序号 row 8DataItem', 'DataItem81']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 8'    (L412, T521, R651, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 8DataItem', '状态 row 8', 'DataItem82']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 8'    (L651, T521, R725, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 8DataItem', 'DataItem83', '来源 row 8']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 8'    (L725, T521, R861, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 8DataItem', '受检者标识 row 8', 'DataItem84']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 8'    (L861, T521, R1065, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 8DataItem', '受检者信息 row 8', 'DataItem85']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 8'    (L1065, T521, R1269, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 8', '检查项目 row 8DataItem', 'DataItem86']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 8'    (L1269, T521, R1439, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 8DataItem', '检查机构 row 8', 'DataItem87']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 8'    (L1439, T521, R1609, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 8DataItem', '检查科室 row 8', 'DataItem88']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 8'    (L1609, T521, R1722, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 8DataItem', '检查医生 row 8', 'DataItem89']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 8'    (L1722, T521, R1899, B558)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 8DataItem', '检查时间 row 8', 'DataItem90']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 8", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 10'    (L344, T559, R1898, B597)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom12', '行 10Custom', '行 10']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 10", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 9'    (L344, T559, R412, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 9', 'DataItem91', '序号 row 9DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 9'    (L412, T559, R651, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 9DataItem', '状态 row 9', 'DataItem92']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 9'    (L651, T559, R725, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 9', '来源 row 9DataItem', 'DataItem93']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 9'    (L725, T559, R861, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 9DataItem', 'DataItem94', '受检者标识 row 9']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 9'    (L861, T559, R1065, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 9', '受检者信息 row 9DataItem', 'DataItem95']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 9'    (L1065, T559, R1269, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 9DataItem', '检查项目 row 9', 'DataItem96']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 9'    (L1269, T559, R1439, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 9', '检查机构 row 9DataItem', 'DataItem97']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 9'    (L1439, T559, R1609, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 9', '检查科室 row 9DataItem', 'DataItem98']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 9'    (L1609, T559, R1722, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 9DataItem', '检查医生 row 9', 'DataItem99']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 9'    (L1722, T559, R1899, B596)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 9', '检查时间 row 9DataItem', 'DataItem100']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 9", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 11'    (L344, T597, R1898, B635)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom13', '行 11Custom', '行 11']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 11", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 10'    (L344, T597, R412, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 10', '序号 row 10DataItem', 'DataItem101']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 10'    (L412, T597, R651, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 10', 'DataItem102', '状态 row 10DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 10'    (L651, T597, R725, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 10DataItem', 'DataItem103', '来源 row 10']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 10'    (L725, T597, R861, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 10DataItem', '受检者标识 row 10', 'DataItem104']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 10'    (L861, T597, R1065, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 10', '受检者信息 row 10DataItem', 'DataItem105']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 10'    (L1065, T597, R1269, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 10', '检查项目 row 10DataItem', 'DataItem106']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 10'    (L1269, T597, R1439, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 10', '检查机构 row 10DataItem', 'DataItem107']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 10'    (L1439, T597, R1609, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['DataItem108', '检查科室 row 10', '检查科室 row 10DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 10'    (L1609, T597, R1722, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 10', 'DataItem109', '检查医生 row 10DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 10'    (L1722, T597, R1899, B634)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 10', 'DataItem110', '检查时间 row 10DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 10", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 12'    (L344, T635, R1898, B673)
+   |    |    |    |    |    |    |    |    |    |    | ['行 12', 'Custom14', '行 12Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 12", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 11'    (L344, T635, R412, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 11DataItem', 'DataItem111', '序号 row 11']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 11'    (L412, T635, R651, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 11DataItem', '状态 row 11', 'DataItem112']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 11'    (L651, T635, R725, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 11', 'DataItem113', '来源 row 11DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 11'    (L725, T635, R861, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 11', '受检者标识 row 11DataItem', 'DataItem114']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 11'    (L861, T635, R1065, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 11', '受检者信息 row 11DataItem', 'DataItem115']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 11'    (L1065, T635, R1269, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 11', '检查项目 row 11DataItem', 'DataItem116']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 11'    (L1269, T635, R1439, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['DataItem117', '检查机构 row 11', '检查机构 row 11DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 11'    (L1439, T635, R1609, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 11DataItem', 'DataItem118', '检查科室 row 11']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 11'    (L1609, T635, R1722, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 11', '检查医生 row 11DataItem', 'DataItem119']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 11'    (L1722, T635, R1899, B672)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 11', 'DataItem120', '检查时间 row 11DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 11", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 13'    (L344, T673, R1898, B711)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom15', '行 13Custom', '行 13']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 13", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 12'    (L344, T673, R412, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 12', '序号 row 12DataItem', 'DataItem121']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 12'    (L412, T673, R651, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 12DataItem', '状态 row 12', 'DataItem122']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 12'    (L651, T673, R725, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 12DataItem', 'DataItem123', '来源 row 12']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 12'    (L725, T673, R861, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 12', '受检者标识 row 12DataItem', 'DataItem124']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 12'    (L861, T673, R1065, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 12DataItem', '受检者信息 row 12', 'DataItem125']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 12'    (L1065, T673, R1269, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 12DataItem', '检查项目 row 12', 'DataItem126']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 12'    (L1269, T673, R1439, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 12DataItem', 'DataItem127', '检查机构 row 12']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 12'    (L1439, T673, R1609, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 12', '检查科室 row 12DataItem', 'DataItem128']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 12'    (L1609, T673, R1722, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 12', 'DataItem129', '检查医生 row 12DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 12'    (L1722, T673, R1899, B710)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 12', '检查时间 row 12DataItem', 'DataItem130']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 12", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 14'    (L344, T711, R1898, B749)
+   |    |    |    |    |    |    |    |    |    |    | ['行 14', 'Custom16', '行 14Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 14", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 13'    (L344, T711, R412, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 13', '序号 row 13DataItem', 'DataItem131']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 13'    (L412, T711, R651, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 13DataItem', '状态 row 13', 'DataItem132']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 13'    (L651, T711, R725, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 13', 'DataItem133', '来源 row 13DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 13'    (L725, T711, R861, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 13', '受检者标识 row 13DataItem', 'DataItem134']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 13'    (L861, T711, R1065, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 13', '受检者信息 row 13DataItem', 'DataItem135']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 13'    (L1065, T711, R1269, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 13', '检查项目 row 13DataItem', 'DataItem136']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 13'    (L1269, T711, R1439, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 13', '检查机构 row 13DataItem', 'DataItem137']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 13'    (L1439, T711, R1609, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 13DataItem', 'DataItem138', '检查科室 row 13']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 13'    (L1609, T711, R1722, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 13DataItem', '检查医生 row 13', 'DataItem139']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 13'    (L1722, T711, R1899, B748)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 13DataItem', '检查时间 row 13', 'DataItem140']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 13", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 15'    (L344, T749, R1898, B787)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom17', '行 15Custom', '行 15']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 15", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 14'    (L344, T749, R412, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 14', '序号 row 14DataItem', 'DataItem141']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 14'    (L412, T749, R651, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 14', '状态 row 14DataItem', 'DataItem142']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 14'    (L651, T749, R725, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 14DataItem', 'DataItem143', '来源 row 14']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 14'    (L725, T749, R861, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 14DataItem', '受检者标识 row 14', 'DataItem144']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 14'    (L861, T749, R1065, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 14DataItem', '受检者信息 row 14', 'DataItem145']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 14'    (L1065, T749, R1269, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 14DataItem', 'DataItem146', '检查项目 row 14']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 14'    (L1269, T749, R1439, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 14', '检查机构 row 14DataItem', 'DataItem147']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 14'    (L1439, T749, R1609, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 14DataItem', 'DataItem148', '检查科室 row 14']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 14'    (L1609, T749, R1722, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 14', '检查医生 row 14DataItem', 'DataItem149']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 14'    (L1722, T749, R1899, B786)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 14', '检查时间 row 14DataItem', 'DataItem150']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 14", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 16'    (L344, T787, R1898, B825)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom18', '行 16', '行 16Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 16", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 15'    (L344, T787, R412, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 15DataItem', '序号 row 15', 'DataItem151']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 15'    (L412, T787, R651, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 15', '状态 row 15DataItem', 'DataItem152']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 15'    (L651, T787, R725, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 15DataItem', '来源 row 15', 'DataItem153']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 15'    (L725, T787, R861, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 15DataItem', '受检者标识 row 15', 'DataItem154']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 15'    (L861, T787, R1065, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 15', 'DataItem155', '受检者信息 row 15DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 15'    (L1065, T787, R1269, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 15DataItem', '检查项目 row 15', 'DataItem156']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 15'    (L1269, T787, R1439, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 15DataItem', '检查机构 row 15', 'DataItem157']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 15'    (L1439, T787, R1609, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 15', '检查科室 row 15DataItem', 'DataItem158']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 15'    (L1609, T787, R1722, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 15', 'DataItem159', '检查医生 row 15DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 15'    (L1722, T787, R1899, B824)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 15DataItem', 'DataItem160', '检查时间 row 15']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 15", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 17'    (L344, T825, R1898, B863)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom19', '行 17Custom', '行 17']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 17", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 16'    (L344, T825, R412, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 16', 'DataItem161', '序号 row 16DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 16'    (L412, T825, R651, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 16', '状态 row 16DataItem', 'DataItem162']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 16'    (L651, T825, R725, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 16', '来源 row 16DataItem', 'DataItem163']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 16'    (L725, T825, R861, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 16', '受检者标识 row 16DataItem', 'DataItem164']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 16'    (L861, T825, R1065, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 16', 'DataItem165', '受检者信息 row 16DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 16'    (L1065, T825, R1269, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 16DataItem', '检查项目 row 16', 'DataItem166']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 16'    (L1269, T825, R1439, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 16', '检查机构 row 16DataItem', 'DataItem167']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 16'    (L1439, T825, R1609, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 16DataItem', 'DataItem168', '检查科室 row 16']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 16'    (L1609, T825, R1722, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 16DataItem', '检查医生 row 16', 'DataItem169']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 16'    (L1722, T825, R1899, B862)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 16DataItem', '检查时间 row 16', 'DataItem170']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 16", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 18'    (L344, T863, R1898, B901)
+   |    |    |    |    |    |    |    |    |    |    | ['行 18', 'Custom20', '行 18Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 18", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 17'    (L344, T863, R412, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 17DataItem', 'DataItem171', '序号 row 17']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 17'    (L412, T863, R651, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 17', '状态 row 17DataItem', 'DataItem172']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 17'    (L651, T863, R725, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 17', '来源 row 17DataItem', 'DataItem173']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 17'    (L725, T863, R861, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 17', 'DataItem174', '受检者标识 row 17DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 17'    (L861, T863, R1065, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 17DataItem', 'DataItem175', '受检者信息 row 17']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 17'    (L1065, T863, R1269, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 17', '检查项目 row 17DataItem', 'DataItem176']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 17'    (L1269, T863, R1439, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 17', 'DataItem177', '检查机构 row 17DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 17'    (L1439, T863, R1609, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['DataItem178', '检查科室 row 17', '检查科室 row 17DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 17'    (L1609, T863, R1722, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 17', '检查医生 row 17DataItem', 'DataItem179']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 17'    (L1722, T863, R1899, B900)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 17DataItem', '检查时间 row 17', 'DataItem180']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 17", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 19'    (L344, T901, R1898, B939)
+   |    |    |    |    |    |    |    |    |    |    | ['Custom21', '行 19Custom', '行 19']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 19", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 18'    (L344, T901, R412, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 18DataItem', '序号 row 18', 'DataItem181']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 18'    (L412, T901, R651, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 18', '状态 row 18DataItem', 'DataItem182']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 18'    (L651, T901, R725, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 18DataItem', '来源 row 18', 'DataItem183']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 18'    (L725, T901, R861, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 18', 'DataItem184', '受检者标识 row 18DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 18'    (L861, T901, R1065, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 18', 'DataItem185', '受检者信息 row 18DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 18'    (L1065, T901, R1269, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 18', '检查项目 row 18DataItem', 'DataItem186']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 18'    (L1269, T901, R1439, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 18', '检查机构 row 18DataItem', 'DataItem187']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 18'    (L1439, T901, R1609, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['DataItem188', '检查科室 row 18', '检查科室 row 18DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 18'    (L1609, T901, R1722, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 18', '检查医生 row 18DataItem', 'DataItem189']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 18'    (L1722, T901, R1899, B938)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 18', '检查时间 row 18DataItem', 'DataItem190']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 18", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Custom - '行 20'    (L344, T939, R1898, B977)
+   |    |    |    |    |    |    |    |    |    |    | ['行 20', 'Custom22', '行 20Custom']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="行 20", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 19'    (L344, T939, R412, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 19', 'DataItem191', '序号 row 19DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 19'    (L412, T939, R651, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 19', '状态 row 19DataItem', 'DataItem192']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 19'    (L651, T939, R725, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['来源 row 19DataItem', 'DataItem193', '来源 row 19']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 19'    (L725, T939, R861, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 19', '受检者标识 row 19DataItem', 'DataItem194']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 19'    (L861, T939, R1065, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 19', '受检者信息 row 19DataItem', 'DataItem195']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 19'    (L1065, T939, R1269, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 19DataItem', '检查项目 row 19', 'DataItem196']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 19'    (L1269, T939, R1439, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 19DataItem', '检查机构 row 19', 'DataItem197']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 19'    (L1439, T939, R1609, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 19', '检查科室 row 19DataItem', 'DataItem198']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 19'    (L1609, T939, R1722, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 19', '检查医生 row 19DataItem', 'DataItem199']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 19'    (L1722, T939, R1899, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 19DataItem', '检查时间 row 19', 'DataItem200']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 19", control_type="DataItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Pane - ''    (L344, T990, R1898, B1034)
+   |    |    |    |    |    |    |    |    | ['全部Pane', 'Pane7', '全部Pane0', '全部Pane1']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="tlpBottom", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Pane - ''    (L395, T992, R1895, B1032)
+   |    |    |    |    |    |    |    |    |    | ['全部Pane2', 'Pane8']
+   |    |    |    |    |    |    |    |    |    | child_window(auto_id="PageControl", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1148, T992, R1895, B1032)
+   |    |    |    |    |    |    |    |    |    |    | ['共35条记录Pane', 'Pane9']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="tableLayoutPanel1", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1657, T999, R1717, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Pane10', '1Pane']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="FlpPageNum", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    | Static - '1'    (L1659, T999, R1685, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Static', '1', '1Static', 'Static0', 'Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="Lbl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    | Static - '2'    (L1689, T999, R1715, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['2', 'Static2', '2Static', '2Static0', '2Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="2", auto_id="Lbl2", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1720, T999, R1746, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static3', '2Static2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblNextPage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1628, T999, R1654, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static4', '共35条记录Static', '共35条记录Static0', '共35条记录Static1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblPrePage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '共35条记录'    (L1558, T1003, R1622, B1020)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static5', '共35条记录', '共35条记录Static2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="共35条记录", auto_id="LblTotal", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | ComboBox - '20'    (L1752, T999, R1812, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    | ['20', '20ComboBox', 'ComboBox', '200', '201', 'ComboBox0', 'ComboBox1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", auto_id="CmbPageSize", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    | Static - '20'    (L1756, T1003, R1787, B1021)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['202', 'Static6', '20Static']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L1790, T999, R1812, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button', '打开Button', '打开', 'Button0', 'Button1', '打开Button0', '打开Button1', '打开0', '打开1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListBox - '20'    (L1752, T999, R1812, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['203', '20ListBox', 'ListBox', 'ListBox0', 'ListBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '20'    (L1752, T999, R1812, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['204', 'ListItem', '20ListItem', 'ListItem0', 'ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '50'    (L1752, T999, R1812, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['50ListItem', 'ListItem2', '50']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="50", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '100'    (L1752, T999, R1812, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['100ListItem', '100', 'ListItem3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="100", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '跳至'    (L1818, T1003, R1842, B1020)
+   |    |    |    |    |    |    |    |    |    |    |    | ['跳至Static', 'Static7', '跳至']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="跳至", auto_id="labelControl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1848, T999, R1874, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit', '跳至Edit', 'Edit0', 'Edit1', '跳至Edit0', '跳至Edit1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="TxtPageIndex", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1856, T1004, R1866, B1020)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit2', '跳至Edit2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="854460", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1856, T1004, R1866, B1020)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit3', '跳至Edit3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '页'    (L1880, T1003, R1892, B1020)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static8', '页', '页Static']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="页", auto_id="labelControl2", control_type="Text")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Static - ''    (L344, T997, R374, B1027)
+   |    |    |    |    |    |    |    |    |    | ['Static9', '全部Static', '全部Static0', '全部Static1']
+   |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblSetting", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - ''    (L337, T129, R1905, B179)
+   |    |    |    |    |    |    |    | ['Pane11', 'bsiTitlePane']
+   |    |    |    |    |    |    |    | child_window(auto_id="PageActionBar_TobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '受理'    (L347, T137, R447, B171)
+   |    |    |    |    |    |    |    |    | ['Button2', '受理', '受理Button']
+   |    |    |    |    |    |    |    |    | child_window(title="受理", auto_id="986130", control_type="Button")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '快速诊断'    (L467, T137, R567, B171)
+   |    |    |    |    |    |    |    |    | ['Button3', '快速诊断Button', '快速诊断']
+   |    |    |    |    |    |    |    |    | child_window(title="快速诊断", auto_id="3869806", control_type="Button")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '编辑'    (L587, T137, R687, B171)
+   |    |    |    |    |    |    |    |    | ['编辑', '编辑Button', 'Button4']
+   |    |    |    |    |    |    |    |    | child_window(title="编辑", auto_id="1313820", control_type="Button")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Button - '删除'    (L707, T137, R807, B171)
+   |    |    |    |    |    |    |    |    | ['Button5', '删除', '删除Button']
+   |    |    |    |    |    |    |    |    | child_window(title="删除", auto_id="659308", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TabItem - '待处理(35)'    (L336, T95, R462, B129)
+   |    |    |    |    |    |    | ['TabItem', '待处理(35)2', '待处理(35)TabItem', 'TabItem0', 'TabItem1']
+   |    |    |    |    |    |    | child_window(title="待处理(35)", control_type="TabItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TabItem - '处理中(63)'    (L461, T95, R585, B128)
+   |    |    |    |    |    |    | ['处理中(63)', 'TabItem2', '处理中(63)TabItem']
+   |    |    |    |    |    |    | child_window(title="处理中(63)", control_type="TabItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | TabItem - '已处理'    (L585, T95, R709, B128)
+   |    |    |    |    |    |    | ['已处理', 'TabItem3', '已处理TabItem']
+   |    |    |    |    |    |    | child_window(title="已处理", control_type="TabItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Dialog - '待处理(35)'    (L337, T129, R1905, B1034)
+   |    |    |    |    |    |    | ['待处理(35)Dialog', '待处理(35)3', 'Dialog2']
+   |    |    |    |    |    |    | child_window(title="待处理(35)", control_type="Window")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Custom - '待处理(35)'    (L337, T129, R1905, B1034)
+   |    |    |    |    |    |    |    | ['Custom23', '待处理(35)4', '待处理(35)Custom']
+   |    |    |    |    |    |    |    | child_window(title="待处理(35)", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L1, T82, R323, B1049)
+   |    |    |    |    | ['Pane12', 'bsiLogoPane2']
+   |    |    |    |    | child_window(auto_id="PnlLeft", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - 'The XtraLayoutControl'    (L1, T82, R322, B997)
+   |    |    |    |    |    | ['Pane13', 'The XtraLayoutControl', 'The XtraLayoutControlPane']
+   |    |    |    |    |    | child_window(title="The XtraLayoutControl", auto_id="LcMenu", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ComboBox - '全部'    (L18, T333, R305, B361)
+   |    |    |    |    |    |    | ['ComboBox2', '全部ComboBox', '全部', '全部0', '全部1', '全部ComboBox0', '全部ComboBox1']
+   |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeExamDepartment", control_type="ComboBox")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '全部'    (L22, T336, R272, B358)
+   |    |    |    |    |    |    |    | ['Static10', '全部Static2', '全部2']
+   |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L275, T333, R305, B361)
+   |    |    |    |    |    |    |    | ['Button6', '打开Button2', '打开2']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | ListBox - '全部'    (L18, T333, R305, B361)
+   |    |    |    |    |    |    |    | ['全部ListBox', '全部3', 'ListBox2', '全部ListBox0', '全部ListBox1']
+   |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '全部'    (L18, T333, R305, B361)
+   |    |    |    |    |    |    |    |    | ['全部ListItem', 'ListItem4', '全部4', '全部ListItem0', '全部ListItem1']
+   |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ComboBox - '全部'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    | ['ComboBox3', '全部ComboBox2', '全部5']
+   |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeExamOrganization", control_type="ComboBox")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '全部'    (L22, T268, R272, B290)
+   |    |    |    |    |    |    |    | ['Static11', '全部Static3', '全部6']
+   |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L275, T265, R305, B293)
+   |    |    |    |    |    |    |    | ['Button7', '打开Button3', '打开3']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | ListBox - '全部'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    | ['全部ListBox2', '全部7', 'ListBox3']
+   |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '全部'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['全部ListItem2', 'ListItem5', '全部8']
+   |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '（院内一体化）玉溪市人民医院'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['ListItem6', '（院内一体化）玉溪市人民医院', '（院内一体化）玉溪市人民医院ListItem']
+   |    |    |    |    |    |    |    |    | child_window(title="（院内一体化）玉溪市人民医院", control_type="ListItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '玉溪检查机构'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['玉溪检查机构ListItem', 'ListItem7', '玉溪检查机构', '玉溪检查机构ListItem0', '玉溪检查机构ListItem1', '玉溪检查机构0', '玉溪检查机构1']
+   |    |    |    |    |    |    |    |    | child_window(title="玉溪检查机构", control_type="ListItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '玉溪检查机构'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['玉溪检查机构ListItem', 'ListItem7', '玉溪检查机构', '玉溪检查机构ListItem0', '玉溪检查机构ListItem1', '玉溪检查机构0', '玉溪检查机构1']
+   |    |    |    |    |    |    |    |    | child_window(title="玉溪检查机构", control_type="ListItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '玉溪检查机构2'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['玉溪检查机构22', '玉溪检查机构2ListItem', 'ListItem9']
+   |    |    |    |    |    |    |    |    | child_window(title="玉溪检查机构2", control_type="ListItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '玉溪诊断机构'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['玉溪诊断机构ListItem', '玉溪诊断机构', 'ListItem10', '玉溪诊断机构ListItem0', '玉溪诊断机构ListItem1', '玉溪诊断机构0', '玉溪诊断机构1']
+   |    |    |    |    |    |    |    |    | child_window(title="玉溪诊断机构", control_type="ListItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListItem - '玉溪诊断机构'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['玉溪诊断机构ListItem', '玉溪诊断机构', 'ListItem10', '玉溪诊断机构ListItem0', '玉溪诊断机构ListItem1', '玉溪诊断机构0', '玉溪诊断机构1']
+   |    |    |    |    |    |    |    |    | child_window(title="玉溪诊断机构", control_type="ListItem")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - '2021年9月17日'    (L18, T433, R305, B461)
+   |    |    |    |    |    |    | ['Pane14', '2021年9月17日', '2021年9月17日Pane', '2021年9月17日0', '2021年9月17日1', '2021年9月17日Pane0', '2021年9月17日Pane1']
+   |    |    |    |    |    |    | child_window(title="2021年9月17日", auto_id="DeExamEndTime", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - '2021年9月17日'    (L22, T436, R272, B458)
+   |    |    |    |    |    |    |    | ['Pane15', '2021年9月17日2', '2021年9月17日Pane2']
+   |    |    |    |    |    |    |    | child_window(title="2021年9月17日", auto_id="921412", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Custom - '2021年9月17日'    (L22, T436, R272, B458)
+   |    |    |    |    |    |    |    | ['Custom24', '2021年9月17日Custom', '2021年9月17日3']
+   |    |    |    |    |    |    |    | child_window(title="2021年9月17日", control_type="Custom")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - '2021年9月3日'    (L18, T401, R305, B429)
+   |    |    |    |    |    |    | ['Pane16', '2021年9月3日', '2021年9月3日Pane', '2021年9月3日0', '2021年9月3日1', '2021年9月3日Pane0', '2021年9月3日Pane1']
+   |    |    |    |    |    |    | child_window(title="2021年9月3日", auto_id="DeExamStartTime", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - '2021年9月3日'    (L22, T404, R272, B426)
+   |    |    |    |    |    |    |    | ['Pane17', '2021年9月3日2', '2021年9月3日Pane2']
+   |    |    |    |    |    |    |    | child_window(title="2021年9月3日", auto_id="854990", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Custom - '2021年9月3日'    (L22, T404, R272, B426)
+   |    |    |    |    |    |    |    | ['Custom25', '2021年9月3日Custom', '2021年9月3日3']
+   |    |    |    |    |    |    |    | child_window(title="2021年9月3日", control_type="Custom")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Edit - ''    (L18, T570, R305, B598)
+   |    |    |    |    |    |    | ['Edit4', '全部Edit', '全部Edit0', '全部Edit1']
+   |    |    |    |    |    |    | child_window(auto_id="BePatientName", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Edit - ''    (L22, T573, R301, B595)
+   |    |    |    |    |    |    |    | ['Edit5', '全部Edit2']
+   |    |    |    |    |    |    |    | child_window(auto_id="2624082", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Edit - ''    (L22, T573, R301, B595)
+   |    |    |    |    |    |    |    | ['Edit6', '全部Edit3']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Edit - ''    (L18, T502, R305, B530)
+   |    |    |    |    |    |    | ['Edit7', '全部Edit4']
+   |    |    |    |    |    |    | child_window(auto_id="BePatientSourceIdentityNo", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Edit - ''    (L22, T505, R301, B527)
+   |    |    |    |    |    |    |    | ['Edit8', '全部Edit5']
+   |    |    |    |    |    |    |    | child_window(auto_id="1575934", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Edit - ''    (L22, T505, R301, B527)
+   |    |    |    |    |    |    |    | ['Edit9', '全部Edit6']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Edit - '内院, 外院, 未分组'    (L18, T197, R305, B225)
+   |    |    |    |    |    |    | ['Edit10', '内院, 外院, 未分组Edit']
+   |    |    |    |    |    |    | child_window(title="内院, 外院, 未分组", auto_id="ChkcbeDiagnosticGroups", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - '内院, 外院, 未分组'    (L22, T200, R272, B222)
+   |    |    |    |    |    |    |    | ['Static12', '内院, 外院, 未分组Static', '内院, 外院, 未分组', '内院, 外院, 未分组0', '内院, 外院, 未分组1']
+   |    |    |    |    |    |    |    | child_window(title="内院, 外院, 未分组", control_type="Text")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L275, T197, R305, B225)
+   |    |    |    |    |    |    |    | ['Button8', '打开Button4', '打开4']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | ListBox - '内院, 外院, 未分组'    (L18, T197, R305, B225)
+   |    |    |    |    |    |    |    | ['内院, 外院, 未分组2', '内院, 外院, 未分组ListBox', 'ListBox4']
+   |    |    |    |    |    |    |    | child_window(title="内院, 外院, 未分组", control_type="List")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | CheckBox - '内院, 外院, 未分组'    (L18, T197, R305, B225)
+   |    |    |    |    |    |    |    |    | ['内院, 外院, 未分组CheckBox', '内院, 外院, 未分组3', 'CheckBox', '内院, 外院, 未分组CheckBox0', '内院, 外院, 未分组CheckBox1', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    |    |    |    |    | child_window(title="内院, 外院, 未分组", control_type="CheckBox")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | CheckBox - '内院, 外院, 未分组'    (L18, T197, R305, B225)
+   |    |    |    |    |    |    |    |    | ['内院, 外院, 未分组CheckBox', '内院, 外院, 未分组3', 'CheckBox', '内院, 外院, 未分组CheckBox0', '内院, 外院, 未分组CheckBox1', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    |    |    |    |    | child_window(title="内院, 外院, 未分组", control_type="CheckBox")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | CheckBox - '内院, 外院, 未分组'    (L18, T197, R305, B225)
+   |    |    |    |    |    |    |    |    | ['内院, 外院, 未分组CheckBox', '内院, 外院, 未分组3', 'CheckBox', '内院, 外院, 未分组CheckBox0', '内院, 外院, 未分组CheckBox1', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    |    |    |    |    | child_window(title="内院, 外院, 未分组", control_type="CheckBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Edit - ''    (L18, T129, R305, B157)
+   |    |    |    |    |    |    | ['bsiLogoEdit', 'Edit11']
+   |    |    |    |    |    |    | child_window(auto_id="ChkcbePatientSources", control_type="Edit")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Static - ''    (L22, T132, R272, B154)
+   |    |    |    |    |    |    |    | ['Static13', 'bsiLogoStatic', 'bsiLogoStatic0', 'bsiLogoStatic1']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Button - '打开'    (L275, T129, R305, B157)
+   |    |    |    |    |    |    |    | ['Button9', '打开Button5', '打开5']
+   |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | ListBox - ''    (L18, T129, R305, B157)
+   |    |    |    |    |    |    |    | ['ListBox5', 'bsiLogoListBox']
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | CheckBox - ''    (L18, T129, R305, B157)
+   |    |    |    |    |    |    |    |    | ['bsiLogoCheckBox', 'CheckBox4', 'bsiLogoCheckBox0', 'bsiLogoCheckBox1']
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | CheckBox - ''    (L18, T129, R305, B157)
+   |    |    |    |    |    |    |    |    | ['bsiLogoCheckBox', 'CheckBox4', 'bsiLogoCheckBox0', 'bsiLogoCheckBox1']
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | CheckBox - ''    (L18, T129, R305, B157)
+   |    |    |    |    |    |    |    |    | ['bsiLogoCheckBox', 'CheckBox4', 'bsiLogoCheckBox0', 'bsiLogoCheckBox1']
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | CheckBox - ''    (L18, T129, R305, B157)
+   |    |    |    |    |    |    |    |    | ['bsiLogoCheckBox', 'CheckBox4', 'bsiLogoCheckBox0', 'bsiLogoCheckBox1']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Table - 'Root'    (L1, T82, R322, B997)
+   |    |    |    |    |    |    | ['Root', 'RootTable', 'Table2']
+   |    |    |    |    |    |    | child_window(title="Root", control_type="Table")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | DataItem - 'emptySpaceItem1'    (L17, T609, R306, B997)
+   |    |    |    |    |    |    |    | ['emptySpaceItem1', 'emptySpaceItem1DataItem', 'DataItem201']
+   |    |    |    |    |    |    |    | child_window(title="emptySpaceItem1", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '诊断组'    (L17, T166, R306, B234)
+   |    |    |    |    |    |    |    | ['诊断组', '诊断组Table', 'Table3']
+   |    |    |    |    |    |    |    | child_window(title="诊断组", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciDiagnosticGroups'    (L18, T197, R305, B225)
+   |    |    |    |    |    |    |    |    | ['LciDiagnosticGroupsDataItem', 'LciDiagnosticGroups', 'DataItem202']
+   |    |    |    |    |    |    |    |    | child_window(title="LciDiagnosticGroups", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '检查机构'    (L17, T234, R306, B302)
+   |    |    |    |    |    |    |    | ['检查机构2', '检查机构Table', 'Table4']
+   |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciExamOrganization'    (L18, T265, R305, B293)
+   |    |    |    |    |    |    |    |    | ['LciExamOrganization', 'LciExamOrganizationDataItem', 'DataItem203']
+   |    |    |    |    |    |    |    |    | child_window(title="LciExamOrganization", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '检查科室'    (L17, T302, R306, B370)
+   |    |    |    |    |    |    |    | ['Table5', '检查科室Table', '检查科室2']
+   |    |    |    |    |    |    |    | child_window(title="检查科室", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciExamDepartment'    (L18, T333, R305, B361)
+   |    |    |    |    |    |    |    |    | ['LciExamDepartmentDataItem', 'LciExamDepartment', 'DataItem204']
+   |    |    |    |    |    |    |    |    | child_window(title="LciExamDepartment", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '检查时间'    (L17, T370, R306, B470)
+   |    |    |    |    |    |    |    | ['检查时间2', '检查时间Table', 'Table6']
+   |    |    |    |    |    |    |    | child_window(title="检查时间", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciExamStartTime'    (L18, T401, R305, B433)
+   |    |    |    |    |    |    |    |    | ['LciExamStartTime', 'LciExamStartTimeDataItem', 'DataItem205']
+   |    |    |    |    |    |    |    |    | child_window(title="LciExamStartTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciExamEndTime'    (L18, T433, R305, B461)
+   |    |    |    |    |    |    |    |    | ['LciExamEndTime', 'DataItem206', 'LciExamEndTimeDataItem']
+   |    |    |    |    |    |    |    |    | child_window(title="LciExamEndTime", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '审核医生'    (L17, T470, R306, B538)
+   |    |    |    |    |    |    |    | ['审核医生Table', '审核医生', 'Table7']
+   |    |    |    |    |    |    |    | child_window(title="审核医生", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciAuditDoctor'    (L18, T501, R305, B529)
+   |    |    |    |    |    |    |    |    | ['LciAuditDoctorDataItem', 'LciAuditDoctor', 'DataItem207']
+   |    |    |    |    |    |    |    |    | child_window(title="LciAuditDoctor", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '来源'    (L17, T98, R306, B166)
+   |    |    |    |    |    |    |    | ['来源Table', '来源2', 'Table8']
+   |    |    |    |    |    |    |    | child_window(title="来源", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciPatientSources'    (L18, T129, R305, B157)
+   |    |    |    |    |    |    |    |    | ['LciPatientSourcesDataItem', 'LciPatientSources', 'DataItem208']
+   |    |    |    |    |    |    |    |    | child_window(title="LciPatientSources", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '受检者标识'    (L17, T471, R306, B539)
+   |    |    |    |    |    |    |    | ['受检者标识Table', '受检者标识2', 'Table9']
+   |    |    |    |    |    |    |    | child_window(title="受检者标识", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciPatientSourceIdentityNo'    (L18, T502, R305, B530)
+   |    |    |    |    |    |    |    |    | ['LciPatientSourceIdentityNo', 'LciPatientSourceIdentityNoDataItem', 'DataItem209']
+   |    |    |    |    |    |    |    |    | child_window(title="LciPatientSourceIdentityNo", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '受检者姓名'    (L17, T539, R306, B607)
+   |    |    |    |    |    |    |    | ['受检者姓名', '受检者姓名Table', 'Table10']
+   |    |    |    |    |    |    |    | child_window(title="受检者姓名", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciPatientName'    (L18, T570, R305, B598)
+   |    |    |    |    |    |    |    |    | ['LciPatientNameDataItem', 'LciPatientName', 'DataItem210']
+   |    |    |    |    |    |    |    |    | child_window(title="LciPatientName", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '诊断结论关键词'    (L17, T674, R306, B742)
+   |    |    |    |    |    |    |    | ['诊断结论关键词', '诊断结论关键词Table', 'Table11']
+   |    |    |    |    |    |    |    | child_window(title="诊断结论关键词", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciDiagnosisResult'    (L18, T705, R305, B733)
+   |    |    |    |    |    |    |    |    | ['LciDiagnosisResult', 'LciDiagnosisResultDataItem', 'DataItem211']
+   |    |    |    |    |    |    |    |    | child_window(title="LciDiagnosisResult", control_type="DataItem")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Table - '报告状态'    (L17, T608, R306, B676)
+   |    |    |    |    |    |    |    | ['报告状态', '报告状态Table', 'Table12']
+   |    |    |    |    |    |    |    | child_window(title="报告状态", control_type="Table")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | DataItem - 'LciReportStatus'    (L18, T639, R305, B667)
+   |    |    |    |    |    |    |    |    | ['LciReportStatus', 'DataItem212', 'LciReportStatusDataItem']
+   |    |    |    |    |    |    |    |    | child_window(title="LciReportStatus", control_type="DataItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - 'PnlButton'    (L1, T997, R322, B1049)
+   |    |    |    |    |    | ['PnlButton', 'Pane18', 'PnlButtonPane']
+   |    |    |    |    |    | child_window(title="PnlButton", auto_id="PnlButton", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - '查询(18s)'    (L170, T997, R270, B1031)
+   |    |    |    |    |    |    | ['查询(18s)', 'Button10', '查询(18s)Button']
+   |    |    |    |    |    |    | child_window(title="查询(18s)", auto_id="BtnSearch", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - '重置'    (L50, T997, R150, B1031)
+   |    |    |    |    |    |    | ['Button11', '重置Button', '重置']
+   |    |    |    |    |    |    | child_window(title="重置", auto_id="BtnReset", control_type="Button")
+   |    |    | 
+   |    |    | TabItem - '静息心电'    (L0, T48, R121, B82)
+   |    |    | ['静息心电TabItem', 'TabItem4', '静息心电3']
+   |    |    | child_window(title="静息心电", control_type="TabItem")
+   |    |    | 
+   |    |    | Dialog - '静息心电'    (L1, T82, R1919, B1049)
+   |    |    | ['静息心电4', 'Dialog3', '静息心电Dialog']
+   |    |    | child_window(title="静息心电", control_type="Window")
+   |    |    |    | 
+   |    |    |    | Custom - '静息心电'    (L1, T82, R1919, B1049)
+   |    |    |    | ['Custom26', '静息心电5', '静息心电Custom']
+   |    |    |    | child_window(title="静息心电", control_type="Custom")
+   | 
+   | GroupBox - '靠顶部'    (L0, T0, R1920, B48)
+   | ['靠顶部GroupBox', 'GroupBox', '靠顶部']
+   | child_window(title="靠顶部", auto_id="2558554", control_type="Group")
+   |    | 
+   |    | Toolbar - 'MenuBar'    (L0, T0, R1920, B48)
+   |    | ['Toolbar', 'MenuBarToolbar', 'MenuBar']
+   |    | child_window(title="MenuBar", auto_id="3017250", control_type="ToolBar")
+   |    |    | 
+   |    |    | Static - 'bsiLogo'    (L2, T2, R107, B46)
+   |    |    | ['Static14', 'bsiLogoStatic2', 'bsiLogo']
+   |    |    | child_window(title="bsiLogo", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'bsiPoint'    (L107, T2, R125, B46)
+   |    |    | ['bsiPoint', 'Static15', 'bsiPointStatic']
+   |    |    | child_window(title="bsiPoint", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'bsiTitle'    (L125, T2, R322, B46)
+   |    |    | ['Static16', 'bsiTitleStatic', 'bsiTitle']
+   |    |    | child_window(title="bsiTitle", control_type="Text")
+   |    |    | 
+   |    |    | MenuItem - 'bsiMsgCenter'    (L1317, T2, R1361, B46)
+   |    |    | ['MenuItem', 'bsiMsgCenterMenuItem', 'bsiMsgCenter', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="bsiMsgCenter", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'bsiUser'    (L1361, T2, R1830, B46)
+   |    |    | ['MenuItem2', 'bsiUserMenuItem', 'bsiUser']
+   |    |    | child_window(title="bsiUser", control_type="MenuItem")
+   |    |    | 
+   |    |    | Static - 'bsiMin'    (L1830, T2, R1874, B46)
+   |    |    | ['Static17', 'bsiMin', 'bsiMinStatic']
+   |    |    | child_window(title="bsiMin", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'bsiClose'    (L1874, T2, R1918, B46)
+   |    |    | ['Static18', 'bsiClose', 'bsiCloseStatic']
+   |    |    | child_window(title="bsiClose", control_type="Text")
+   |    |    | 
+   |    |    | MenuItem - '预约'    (L322, T2, R448, B46)
+   |    |    | ['MenuItem3', '预约MenuItem', '预约']
+   |    |    | child_window(title="预约", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '诊断'    (L448, T2, R574, B46)
+   |    |    | ['诊断', 'MenuItem4', '诊断MenuItem']
+   |    |    | child_window(title="诊断", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '管理'    (L574, T2, R700, B46)
+   |    |    | ['MenuItem5', '管理MenuItem', '管理']
+   |    |    | child_window(title="管理", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '项目'    (L1026, T0, R1039, B48)
+   |    |    | ['MenuItem6', '项目', '项目MenuItem']
+   |    |    | child_window(title="项目", control_type="MenuItem")
+None
+
+Process finished with exit code 0

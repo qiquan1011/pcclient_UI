@@ -1,0 +1,18 @@
+check:
+  name: "姓名Edit"  #姓名输入框
+  age: "年龄Edit"  #年龄输入框
+  saveAndCheck: "保存并采集"  #保存采集按钮title
+  saveAndCheck_Type: "Button"  #保存采集按钮类型
+  checked: "已检查"  #已检查tab页
+  checked_type: "RadioButton"  #已检查tab按钮类型
+  diagnosed_father: "Aquarium.Ecg.Client.Models.Models.Report.ReportPagerRow"  #列表第一个父级
+  diagnosed_title: "待诊断"   #已检查列表第一个人的待诊断title
+  diagnosed_type: "Text"      #待诊断类型
+
+picture_report:
+  apply: "menuMore"   #申请诊断auto_id
+  apply_class: "Button" #申请诊断calss_name
+  PART_OkButton: "PART_OkButton" #申请诊断确认按钮auto_Id
+  PART_OkButton_type: "Button"  #申请诊断确认按钮控件类型
+  return: "返 回"  #返回按钮title
+  return_type: "Button"  #返回按钮控件类型

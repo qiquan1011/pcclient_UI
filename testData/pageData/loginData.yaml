@@ -1,0 +1,17 @@
+#检查端登录页面定位
+acqLogin:
+  login_name: "心电采集客户端"
+  name: "心电检查客户端"
+  name_class: "Window"
+  username: "UserSelc"
+  password: "PasswordBox"
+  loginBtn: "登   录"
+  control_type: "Button"
+
+gghLogin:
+  login_name: "心电医生工作站"
+  login_name_class: "WindowsForms10.Window.8.app.0.13965fa_r6_ad1"
+  name: "Login"
+  username: "CboUserName"
+  password: "TxtPwd"
+  BtnLogin: "BtnLogin"

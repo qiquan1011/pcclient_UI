@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "qiquan",
+    "children" : [ {
+      "name" : "5368-MainThread",
+      "children" : [ {
+        "name" : "test_01[1.0-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\acqMain_Page_Data.yaml-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\loginData.yaml-D:\\pythonProject\\pcclient_UI\\testData\\inputData\\login_input_data-Aquarium.Ecg.Client.Shell.exe-D:/NLEMR/RestingECG-D:\\pythonProject\\pcclient_UI\\testFile\\screenshot\\申请诊断成功.png]",
+        "uid" : "62c00f9422e6a308",
+        "parentUid" : "598634788a2a11089c0cc925d0b4209c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632996034587,
+          "stop" : 1632996118275,
+          "duration" : 83688
+        },
+        "flaky" : false,
+        "parameters" : [ "'D:\\pythonProject\\pcclient_UI\\testFile\\screenshot\\申请诊断成功.png'", "1.0", "'Aquarium.Ecg.Client.Shell.exe'", "'D:/NLEMR/RestingECG'", "'D:\\pythonProject\\pcclient_UI\\testData\\pageData\\acqMain_Page_Data.yaml'", "'D:\\pythonProject\\pcclient_UI\\testData\\inputData\\login_input_data'", "'D:\\pythonProject\\pcclient_UI\\testData\\pageData\\loginData.yaml'" ]
+      }, {
+        "name" : "test_03",
+        "uid" : "ce5e783e6a92c31f",
+        "parentUid" : "598634788a2a11089c0cc925d0b4209c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632996118312,
+          "stop" : 1632996118312,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02",
+        "uid" : "2484d599c32a5966",
+        "parentUid" : "598634788a2a11089c0cc925d0b4209c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632996118281,
+          "stop" : 1632996118281,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "598634788a2a11089c0cc925d0b4209c"
+    } ],
+    "uid" : "75a3010a36359579315f3a3463feef9d"
+  } ]
+}

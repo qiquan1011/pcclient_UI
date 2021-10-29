@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 30 18:00:34 CST 2021","Thu Sep 30 18:01:58 CST 2021","83688","testCase","test_check_report","","","","test_01[1.0-D:\pythonProject\pcclient_UI\testData\pageData\acqMain_Page_Data.yaml-D:\pythonProject\pcclient_UI\testData\pageData\loginData.yaml-D:\pythonProject\pcclient_UI\testData\inputData\login_input_data-Aquarium.Ecg.Client.Shell.exe-D:/NLEMR/RestingECG-D:\pythonProject\pcclient_UI\testFile\screenshot\申请诊断成功.png]",""
+"passed","Thu Sep 30 18:01:58 CST 2021","Thu Sep 30 18:01:58 CST 2021","0","testCase","test_check_report","","","","test_03",""
+"failed","Thu Sep 30 18:01:58 CST 2021","Thu Sep 30 18:01:58 CST 2021","0","testCase","test_check_report","","","","test_02",""

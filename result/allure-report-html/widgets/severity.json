@@ -1,0 +1,31 @@
+[ {
+  "uid" : "2484d599c32a5966",
+  "name" : "test_02",
+  "time" : {
+    "start" : 1632996118281,
+    "stop" : 1632996118281,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce5e783e6a92c31f",
+  "name" : "test_03",
+  "time" : {
+    "start" : 1632996118312,
+    "stop" : 1632996118312,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62c00f9422e6a308",
+  "name" : "test_01[1.0-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\acqMain_Page_Data.yaml-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\loginData.yaml-D:\\pythonProject\\pcclient_UI\\testData\\inputData\\login_input_data-Aquarium.Ecg.Client.Shell.exe-D:/NLEMR/RestingECG-D:\\pythonProject\\pcclient_UI\\testFile\\screenshot\\申请诊断成功.png]",
+  "time" : {
+    "start" : 1632996034587,
+    "stop" : 1632996118275,
+    "duration" : 83688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

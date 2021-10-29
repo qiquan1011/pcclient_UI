@@ -1,0 +1,53 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_01",
+    "children" : [ {
+      "name" : "test_01[1.0-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\acqMain_Page_Data.yaml-D:\\pythonProject\\pcclient_UI\\testData\\pageData\\loginData.yaml-D:\\pythonProject\\pcclient_UI\\testData\\inputData\\login_input_data-Aquarium.Ecg.Client.Shell.exe-D:/NLEMR/RestingECG-D:\\pythonProject\\pcclient_UI\\testFile\\screenshot\\申请诊断成功.png]",
+      "uid" : "62c00f9422e6a308",
+      "parentUid" : "3e73aa63bc4423c752ca74871c509e66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632996034587,
+        "stop" : 1632996118275,
+        "duration" : 83688
+      },
+      "flaky" : false,
+      "parameters" : [ "'D:\\pythonProject\\pcclient_UI\\testFile\\screenshot\\申请诊断成功.png'", "1.0", "'Aquarium.Ecg.Client.Shell.exe'", "'D:/NLEMR/RestingECG'", "'D:\\pythonProject\\pcclient_UI\\testData\\pageData\\acqMain_Page_Data.yaml'", "'D:\\pythonProject\\pcclient_UI\\testData\\inputData\\login_input_data'", "'D:\\pythonProject\\pcclient_UI\\testData\\pageData\\loginData.yaml'" ]
+    } ],
+    "uid" : "3e73aa63bc4423c752ca74871c509e66"
+  }, {
+    "name" : "test_02",
+    "children" : [ {
+      "name" : "test_02",
+      "uid" : "2484d599c32a5966",
+      "parentUid" : "9a1ed594656d35eef3c8a1f5dec99fb6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632996118281,
+        "stop" : 1632996118281,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9a1ed594656d35eef3c8a1f5dec99fb6"
+  }, {
+    "name" : "test_03",
+    "children" : [ {
+      "name" : "test_03",
+      "uid" : "ce5e783e6a92c31f",
+      "parentUid" : "4549cb6aed47bc617b4e8c9118bdefc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632996118312,
+        "stop" : 1632996118312,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4549cb6aed47bc617b4e8c9118bdefc3"
+  } ]
+}

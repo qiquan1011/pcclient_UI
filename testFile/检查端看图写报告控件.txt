@@ -1,0 +1,2199 @@
+D:\pythonProject\pcclient_UI\venv\Scripts\python.exe D:/pythonProject/pcclient_UI/check.py
+16152
+Control Identifiers:
+
+Dialog - '心电检查客户端'    (L-32000, T-32000, R-31840, B-31972)
+['心电检查客户端Dialog', 'Dialog', '心电检查客户端', '心电检查客户端0', '心电检查客户端1']
+child_window(title="心电检查客户端", control_type="Window")
+   | 
+   | Custom - ''    (L-31999, T-31995, R-30381, B-31940)
+   | ['Custom', '心电检查客户端Custom', 'Custom0', 'Custom1']
+   |    | 
+   |    | Image - ''    (L-31967, T-31987, R-31817, B-31949)
+   |    | ['Image', 'Image0', 'Image1']
+   |    | 
+   |    | Static - '心电检查客户端'    (L-31817, T-31985, R-31615, B-31951)
+   |    | ['心电检查客户端2', 'Static', '心电检查客户端Static', 'Static0', 'Static1', '心电检查客户端Static0', '心电检查客户端Static1']
+   |    | child_window(title="心电检查客户端", auto_id="labTitle", control_type="Text")
+   |    |    | 
+   |    |    | Static - '心电检查客户端'    (L-31797, T-31985, R-31615, B-31951)
+   |    |    | ['心电检查客户端3', 'Static2', '心电检查客户端Static2']
+   |    |    | child_window(title="心电检查客户端", control_type="Text")
+   |    | 
+   |    | Image - ''    (L-30861, T-31983, R-30829, B-31951)
+   |    | ['心电检查客户端Image', 'Image2']
+   |    | 
+   |    | Static - 'QDR检查医生'    (L-30829, T-31978, R-30719, B-31957)
+   |    | ['QDR检查医生', 'Static3', 'QDR检查医生Static', 'QDR检查医生0', 'QDR检查医生1', 'QDR检查医生Static0', 'QDR检查医生Static1']
+   |    | child_window(title="QDR检查医生", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'QDR检查医生'    (L-30819, T-31978, R-30719, B-31957)
+   |    |    | ['QDR检查医生2', 'Static4', 'QDR检查医生Static2']
+   |    |    | child_window(title="QDR检查医生", control_type="Text")
+   |    | 
+   |    | Static - '检查医生'    (L-30709, T-31978, R-30635, B-31957)
+   |    | ['检查医生Static', 'Static5', '检查医生', '检查医生Static0', '检查医生Static1', '检查医生0', '检查医生1']
+   |    | child_window(title="检查医生", control_type="Text")
+   |    |    | 
+   |    |    | Static - '检查医生'    (L-30699, T-31978, R-30635, B-31957)
+   |    |    | ['检查医生Static2', 'Static6', '检查医生2']
+   |    |    | child_window(title="检查医生", control_type="Text")
+   |    | 
+   |    | Static - '（院内一体化）玉溪市人民医院'    (L-30625, T-31978, R-30381, B-31957)
+   |    | ['（院内一体化）玉溪市人民医院Static', '（院内一体化）玉溪市人民医院', 'Static7', '（院内一体化）玉溪市人民医院Static0', '（院内一体化）玉溪市人民医院Static1', '（院内一体化）玉溪市人民医院0', '（院内一体化）玉溪市人民医院1']
+   |    | child_window(title="（院内一体化）玉溪市人民医院", control_type="Text")
+   |    |    | 
+   |    |    | Static - '（院内一体化）玉溪市人民医院'    (L-30615, T-31978, R-30391, B-31957)
+   |    |    | ['（院内一体化）玉溪市人民医院Static2', '（院内一体化）玉溪市人民医院2', 'Static8']
+   |    |    | child_window(title="（院内一体化）玉溪市人民医院", control_type="Text")
+   | 
+   | Button - ''    (L-30362, T-31979, R-30338, B-31954)
+   | ['（院内一体化）玉溪市人民医院Button', 'Button', '（院内一体化）玉溪市人民医院Button0', '（院内一体化）玉溪市人民医院Button1', 'Button0', 'Button1']
+   |    | 
+   |    | Image - ''    (L-30362, T-31979, R-30338, B-31955)
+   |    | ['Image3', '（院内一体化）玉溪市人民医院Image', '（院内一体化）玉溪市人民医院Image0', '（院内一体化）玉溪市人民医院Image1']
+   | 
+   | Button - ''    (L-30323, T-31979, R-30299, B-31954)
+   | ['（院内一体化）玉溪市人民医院Button2', 'Button2']
+   |    | 
+   |    | Image - ''    (L-30323, T-31979, R-30299, B-31955)
+   |    | ['Image4', '（院内一体化）玉溪市人民医院Image2']
+   | 
+   | Button - ''    (L-30284, T-31979, R-30260, B-31954)
+   | ['（院内一体化）玉溪市人民医院Button3', 'Button3']
+   |    | 
+   |    | Image - ''    (L-30284, T-31979, R-30260, B-31955)
+   |    | ['Image5', '（院内一体化）玉溪市人民医院Image3']
+   | 
+   | Button - ''    (L-30245, T-31979, R-30221, B-31954)
+   | ['（院内一体化）玉溪市人民医院Button4', 'Button4']
+   |    | 
+   |    | Image - ''    (L-30245, T-31979, R-30221, B-31955)
+   |    | ['Image6', '（院内一体化）玉溪市人民医院Image4']
+   | 
+   | Button - ''    (L-30181, T-31979, R-30157, B-31955)
+   | ['\uf068Button', 'Button5', '\uf068']
+   | child_window(title="", control_type="Button")
+   |    | 
+   |    | Image - ''    (L-30181, T-31979, R-30157, B-31955)
+   |    | ['Image7', '（院内一体化）玉溪市人民医院Image5']
+   |    | child_window(auto_id="ImageMinimize", control_type="Image")
+   | 
+   | Button - ''    (L-30137, T-31979, R-30113, B-31954)
+   | ['（院内一体化）玉溪市人民医院Button5', 'Button6']
+   |    | 
+   |    | Image - ''    (L-30137, T-31979, R-30113, B-31955)
+   |    | ['Image8', '（院内一体化）玉溪市人民医院Image6']
+   |    | child_window(auto_id="ImageClose", control_type="Image")
+   | 
+   | Custom - ''    (L-31999, T-31935, R-30081, B-30949)
+   | ['Custom2', '江羽Custom', '江羽Custom0', '江羽Custom1']
+   |    | 
+   |    | Static - '江羽'    (L-31975, T-31912, R-31939, B-31888)
+   |    | ['Static9', '江羽Static', '江羽']
+   |    | child_window(title="江羽", control_type="Text")
+   |    | 
+   |    | Static - '男'    (L-31925, T-31912, R-31907, B-31888)
+   |    | ['男Static', 'Static10', '男']
+   |    | child_window(title="男", control_type="Text")
+   |    | 
+   |    | Static - '51'    (L-31893, T-31912, R-31872, B-31888)
+   |    | ['51Static', 'Static11', '51']
+   |    | child_window(title="51", control_type="Text")
+   |    | 
+   |    | Static - '岁'    (L-31858, T-31912, R-31840, B-31888)
+   |    | ['岁', '岁Static', 'Static12']
+   |    | child_window(title="岁", control_type="Text")
+   |    | 
+   |    | Static - '检查时间: '    (L-31826, T-31912, R-31744, B-31888)
+   |    | ['检查时间: ', '检查时间: Static', 'Static13']
+   |    | child_window(title="检查时间: ", control_type="Text")
+   |    | 
+   |    | Static - '2021-09-18 10:26'    (L-31730, T-31912, R-31578, B-31888)
+   |    | ['2021-09-18 10:26Static', '2021-09-18 10:26', 'Static14']
+   |    | child_window(title="2021-09-18 10:26", control_type="Text")
+   |    | 
+   |    | Static - '检查机构: '    (L-31564, T-31912, R-31482, B-31888)
+   |    | ['检查机构: ', '检查机构: Static', 'Static15']
+   |    | child_window(title="检查机构: ", control_type="Text")
+   |    | 
+   |    | Static - '（院内一体化）玉溪市人民医院'    (L-31468, T-31912, R-31216, B-31888)
+   |    | ['（院内一体化）玉溪市人民医院Static3', '（院内一体化）玉溪市人民医院3', 'Static16']
+   |    | child_window(title="（院内一体化）玉溪市人民医院", control_type="Text")
+   |    | 
+   |    | Static - '临床诊断'    (L-31202, T-31912, R-31130, B-31888)
+   |    | ['临床诊断Static', 'Static17', '临床诊断']
+   |    | child_window(title="临床诊断", control_type="Text")
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static18']
+   |    | 
+   |    | Button - ''    (L-30777, T-31917, R-30685, B-31882)
+   |    | ['\uf138Button', 'Button7']
+   |    |    | 
+   |    |    | Static - ''    (L-30760, T-31909, R-30743, B-31889)
+   |    |    | ['\uf138', '\uf138Static', 'Static19']
+   |    |    | child_window(title="", control_type="Text")
+   |    |    | 
+   |    |    | Static - '更多'    (L-30738, T-31911, R-30702, B-31887)
+   |    |    | ['Static20', '更多', '更多Static']
+   |    |    | child_window(title="更多", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L-31989, T-31869, R-30671, B-30959)
+   |    | ['更多Custom', 'Custom3', '江羽Custom2', '更多Custom0', '更多Custom1']
+   |    |    | 
+   |    |    | Custom - ''    (L-31989, T-31869, R-30671, B-30959)
+   |    |    | ['Custom4', '江羽Custom3']
+   |    |    | child_window(auto_id="RestingEcg", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Image - ''    (L-31989, T-31869, R-30671, B-30959)
+   
+   
+   
+   |    |    |    | ['江羽Image', 'Image9']
+   |    |    |    | child_window(auto_id="BgImage", control_type="Image")
+   |    |    |    | 
+   |    |    |    | RadioButton - ''    (L-31968, T-31849, R-31934, B-31819)
+   |    |    |    | ['江羽RadioButton', 'RadioButton']
+   |    |    |    | 
+   |    |    |    | Static - '25mm/s 10mm/mV'    (L-30831, T-31846, R-30701, B-31828)
+   |    |    |    | ['25mm/s 10mm/mVStatic', '25mm/s 10mm/mV', 'Static21']
+   |    |    |    | child_window(title="25mm/s 10mm/mV", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom5']
+   |    |    |    | child_window(auto_id="EcgToolsLine", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Custom6']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31658, R-30691, B-31612)
+   |    |    |    | ['25mm/s 10mm/mVCustom', 'Custom7', '25mm/s 10mm/mVCustom0', '25mm/s 10mm/mVCustom1']
+   |    |    |    | child_window(auto_id="BtnLeadlayoutStyle", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31658, R-30691, B-31612)
+   |    |    |    |    | ['25mm/s 10mm/mVButton', 'Button8', '25mm/s 10mm/mVButton0', '25mm/s 10mm/mVButton1']
+   |    |    |    |    | child_window(auto_id="BtnMenu", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31654, R-30704, B-31636)
+   |    |    |    |    |    | ['Image10', '25mm/s 10mm/mVImage', '25mm/s 10mm/mVImage0', '25mm/s 10mm/mVImage1']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31610, R-30691, B-31564)
+   |    |    |    | ['25mm/s 10mm/mVCustom2', 'Custom8']
+   |    |    |    | child_window(auto_id="BtnWaveSpeed", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31610, R-30691, B-31564)
+   |    |    |    |    | ['25mm/s 10mm/mVButton2', 'Button9']
+   |    |    |    |    | child_window(auto_id="BtnMenu", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31606, R-30704, B-31588)
+   |    |    |    |    |    | ['Image11', '25mm/s 10mm/mVImage2']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31562, R-30691, B-31516)
+   |    |    |    | ['25mm/s 10mm/mVCustom3', 'Custom9']
+   |    |    |    | child_window(auto_id="BtnWaveGain", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31562, R-30691, B-31516)
+   |    |    |    |    | ['25mm/s 10mm/mVButton3', 'Button10']
+   |    |    |    |    | child_window(auto_id="BtnMenu", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31558, R-30704, B-31540)
+   |    |    |    |    |    | ['Image12', '25mm/s 10mm/mVImage3']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31514, R-30691, B-31468)
+   |    |    |    | ['25mm/s 10mm/mVCustom4', 'Custom10']
+   |    |    |    | child_window(auto_id="BtnWaveFilter", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31514, R-30691, B-31468)
+   |    |    |    |    | ['25mm/s 10mm/mVButton4', 'Button11']
+   |    |    |    |    | child_window(auto_id="BtnMenu", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31510, R-30704, B-31492)
+   |    |    |    |    |    | ['Image13', '25mm/s 10mm/mVImage4']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31467, R-30691, B-31422)
+   |    |    |    | ['25mm/s 10mm/mVCustom5', 'Custom11']
+   |    |    |    | child_window(auto_id="BtnLayoutMod", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31467, R-30691, B-31422)
+   |    |    |    |    | ['25mm/s 10mm/mVButton5', 'Button12']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31463, R-30704, B-31445)
+   |    |    |    |    |    | ['Image14', '25mm/s 10mm/mVImage5']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31412, R-30691, B-31367)
+   |    |    |    | ['25mm/s 10mm/mVCustom6', 'Custom12']
+   |    |    |    | child_window(auto_id="BtnMeasure", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31412, R-30691, B-31367)
+   |    |    |    |    | ['25mm/s 10mm/mVButton6', 'Button13']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31408, R-30704, B-31390)
+   |    |    |    |    |    | ['Image15', '25mm/s 10mm/mVImage6']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31365, R-30691, B-31320)
+   |    |    |    | ['25mm/s 10mm/mVCustom7', 'Custom13']
+   |    |    |    | child_window(auto_id="BtnDivided", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31365, R-30691, B-31320)
+   |    |    |    |    | ['25mm/s 10mm/mVButton7', 'Button14']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31361, R-30704, B-31343)
+   |    |    |    |    |    | ['Image16', '25mm/s 10mm/mVImage7']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31318, R-30691, B-31273)
+   |    |    |    | ['25mm/s 10mm/mVCustom8', 'Custom14']
+   |    |    |    | child_window(auto_id="BtnZoomIn", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31318, R-30691, B-31273)
+   |    |    |    |    | ['25mm/s 10mm/mVButton8', 'Button15']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31314, R-30704, B-31296)
+   |    |    |    |    |    | ['Image17', '25mm/s 10mm/mVImage8']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31271, R-30691, B-31226)
+   |    |    |    | ['25mm/s 10mm/mVCustom9', 'Custom15']
+   |    |    |    | child_window(auto_id="BtnFullScreen", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31271, R-30691, B-31226)
+   |    |    |    |    | ['25mm/s 10mm/mVButton9', 'Button16']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31267, R-30704, B-31249)
+   |    |    |    |    |    | ['Image18', '25mm/s 10mm/mVImage9']
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L-30734, T-31215, R-30691, B-31170)
+   |    |    |    | ['25mm/s 10mm/mVCustom10', 'Custom16']
+   |    |    |    | child_window(auto_id="BtnWaveCompare", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30734, T-31215, R-30691, B-31170)
+   |    |    |    |    | ['25mm/s 10mm/mVButton10', 'Button17']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L-30722, T-31211, R-30704, B-31193)
+   |    |    |    |    |    | ['Image19', '25mm/s 10mm/mVImage10']
+   |    |    |    | 
+   |    |    |    | Static - '10S'    (L-30720, T-31015, R-30701, B-31000)
+   |    |    |    | ['10SStatic', '10S', 'Static22']
+   |    |    |    | child_window(title="10S", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L-30665, T-31925, R-30091, B-31651)
+   |    | ['更多Custom2', 'Custom17']
+   |    |    | 
+   |    |    | Image - ''    (L-30647, T-31911, R-30627, B-31891)
+   |    |    | ['Image20', '更多Image']
+   |    |    | 
+   |    |    | Static - '测值信息'    (L-30613, T-31913, R-30095, B-31889)
+   |    |    | ['测值信息', 'Static23', '测值信息Static']
+   |    |    | child_window(title="测值信息", control_type="Text")
+   |    |    | 
+   |    |    | Static - '室率'    (L-30618, T-31869, R-30586, B-31848)
+   |    |    | ['室率', '室率Static', 'Static24']
+   |    |    | child_window(title="室率", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'bpm'    (L-30528, T-31869, R-30493, B-31848)
+   |    |    | ['Static25', 'bpm', 'bpmStatic', 'bpm0', 'bpm1', 'bpmStatic0', 'bpmStatic1']
+   |    |    | child_window(title="bpm", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '66'    (L-30575, T-31873, R-30528, B-31844)
+   |    |    | ['室率Edit', 'Edit', 'Edit0', 'Edit1']
+   |    |    | child_window(title="66", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar2']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r', 'Button18', 'rButton', 'r0', 'r1', 'rButton0', 'rButton1']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - '房率'    (L-30427, T-31869, R-30395, B-31848)
+   |    |    | ['房率Static', 'Static26', '房率']
+   |    |    | child_window(title="房率", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'bpm'    (L-30337, T-31869, R-30302, B-31848)
+   |    |    | ['Static27', 'bpm2', 'bpmStatic2']
+   |    |    | child_window(title="bpm", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '66'    (L-30384, T-31873, R-30337, B-31844)
+   |    |    | ['房率Edit', 'Edit2']
+   |    |    | child_window(title="66", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar3']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar4']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r2', 'Button19', 'rButton2']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'P电轴'    (L-30245, T-31869, R-30203, B-31848)
+   |    |    | ['P电轴', 'P电轴Static', 'Static28']
+   |    |    | child_window(title="P电轴", control_type="Text")
+   |    |    | 
+   |    |    | Static - '°'    (L-30117, T-31869, R-30110, B-31848)
+   |    |    | ['Static29', '°', '°Static', '°0', '°1', '°Static0', '°Static1']
+   |    |    | child_window(title="°", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '-29'    (L-30192, T-31873, R-30117, B-31844)
+   |    |    | ['P电轴Edit', 'Edit3']
+   |    |    | child_window(title="-29", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar5']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar6']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r3', 'Button20', 'rButton3']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'QRS电轴'    (L-30651, T-31837, R-30586, B-31816)
+   |    |    | ['QRS电轴Static', 'Static30', 'QRS电轴']
+   |    |    | child_window(title="QRS电轴", control_type="Text")
+   |    |    | 
+   |    |    | Static - '°'    (L-30500, T-31837, R-30493, B-31816)
+   |    |    | ['Static31', '°2', '°Static2']
+   |    |    | child_window(title="°", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '-29'    (L-30575, T-31841, R-30500, B-31812)
+   |    |    | ['Edit4', 'QRS电轴Edit']
+   |    |    | child_window(title="-29", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar7']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar8']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r4', 'Button21', 'rButton4']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'T电轴'    (L-30436, T-31837, R-30395, B-31816)
+   |    |    | ['T电轴Static', 'Static32', 'T电轴']
+   |    |    | child_window(title="T电轴", control_type="Text")
+   |    |    | 
+   |    |    | Static - '°'    (L-30309, T-31837, R-30302, B-31816)
+   |    |    | ['Static33', '°3', '°Static3']
+   |    |    | child_window(title="°", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '-72'    (L-30384, T-31841, R-30309, B-31812)
+   |    |    | ['T电轴Edit', 'Edit5']
+   |    |    | child_window(title="-72", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar9']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar10']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r5', 'Button22', 'rButton5']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'P波时限'    (L-30261, T-31837, R-30203, B-31816)
+   |    |    | ['P波时限', 'P波时限Static', 'Static34']
+   |    |    | child_window(title="P波时限", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'ms'    (L-30132, T-31837, R-30110, B-31816)
+   |    |    | ['Static35', 'ms', 'msStatic', 'ms0', 'ms1', 'msStatic0', 'msStatic1']
+   |    |    | child_window(title="ms", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '69'    (L-30192, T-31841, R-30132, B-31812)
+   |    |    | ['P波时限Edit', 'Edit6']
+   |    |    | child_window(title="69", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar11']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar12']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r6', 'Button23', 'rButton6']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'PR间期'    (L-30638, T-31805, R-30586, B-31784)
+   |    |    | ['PR间期', 'Static36', 'PR间期Static']
+   |    |    | child_window(title="PR间期", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'ms'    (L-30515, T-31805, R-30493, B-31784)
+   |    |    | ['Static37', 'ms2', 'msStatic2']
+   |    |    | child_window(title="ms", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '100'    (L-30575, T-31809, R-30515, B-31780)
+   |    |    | ['PR间期Edit', 'Edit7']
+   |    |    | child_window(title="100", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar13']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar14']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r7', 'Button24', 'rButton7']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'QRS时限'    (L-30460, T-31805, R-30395, B-31784)
+   |    |    | ['Static38', 'QRS时限Static', 'QRS时限']
+   |    |    | child_window(title="QRS时限", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'ms'    (L-30324, T-31805, R-30302, B-31784)
+   |    |    | ['Static39', 'ms3', 'msStatic3']
+   |    |    | child_window(title="ms", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '136'    (L-30384, T-31809, R-30324, B-31780)
+   |    |    | ['QRS时限Edit', 'Edit8']
+   |    |    | child_window(title="136", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar15']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar16']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r8', 'Button25', 'rButton8']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'QT间期'    (L-30257, T-31805, R-30203, B-31784)
+   |    |    | ['QT间期', 'Static40', 'QT间期Static']
+   |    |    | child_window(title="QT间期", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'ms'    (L-30132, T-31805, R-30110, B-31784)
+   |    |    | ['Static41', 'ms4', 'msStatic4']
+   |    |    | child_window(title="ms", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '428'    (L-30192, T-31809, R-30132, B-31780)
+   |    |    | ['QT间期Edit', 'Edit9']
+   |    |    | child_window(title="428", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar17']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar18']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r9', 'Button26', 'rButton9']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'T波时限'    (L-30643, T-31773, R-30586, B-31752)
+   |    |    | ['T波时限', 'Static42', 'T波时限Static']
+   |    |    | child_window(title="T波时限", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'ms'    (L-30515, T-31773, R-30493, B-31752)
+   |    |    | ['Static43', 'ms5', 'msStatic5']
+   |    |    | child_window(title="ms", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '202'    (L-30575, T-31777, R-30515, B-31748)
+   |    |    | ['Edit10', 'T波时限Edit']
+   |    |    | child_window(title="202", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar19']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar20']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r10', 'Button27', 'rButton10']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'SV1'    (L-30424, T-31773, R-30395, B-31752)
+   |    |    | ['SV1', 'Static44', 'SV1Static']
+   |    |    | child_window(title="SV1", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30328, T-31773, R-30302, B-31752)
+   |    |    | ['mVStatic', 'mV', 'Static45', 'mVStatic0', 'mVStatic1', 'mV0', 'mV1']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '-1.02'    (L-30384, T-31777, R-30328, B-31748)
+   |    |    | ['SV1Edit', 'Edit11']
+   |    |    | child_window(title="-1.02", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar21']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar22']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r11', 'Button28', 'rButton11']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'RV1'    (L-30234, T-31773, R-30203, B-31752)
+   |    |    | ['RV1Static', 'Static46', 'RV1']
+   |    |    | child_window(title="RV1", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30136, T-31773, R-30110, B-31752)
+   |    |    | ['mVStatic2', 'mV2', 'Static47']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '0.35'    (L-30192, T-31777, R-30136, B-31748)
+   |    |    | ['RV1Edit', 'Edit12']
+   |    |    | child_window(title="0.35", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar23']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar24']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r12', 'Button29', 'rButton12']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'SV2'    (L-30615, T-31741, R-30586, B-31720)
+   |    |    | ['SV2Static', 'Static48', 'SV2']
+   |    |    | child_window(title="SV2", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30519, T-31741, R-30493, B-31720)
+   |    |    | ['mVStatic3', 'mV3', 'Static49']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '-0.44'    (L-30575, T-31745, R-30519, B-31716)
+   |    |    | ['Edit13', 'SV2Edit']
+   |    |    | child_window(title="-0.44", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar25']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar26']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r13', 'Button30', 'rButton13']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'RV5'    (L-30426, T-31741, R-30395, B-31720)
+   |    |    | ['RV5Static', 'RV5', 'Static50']
+   |    |    | child_window(title="RV5", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30328, T-31741, R-30302, B-31720)
+   |    |    | ['mVStatic4', 'mV4', 'Static51']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '0.14'    (L-30384, T-31745, R-30328, B-31716)
+   |    |    | ['RV5Edit', 'Edit14']
+   |    |    | child_window(title="0.14", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar27']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar28']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r14', 'Button31', 'rButton14']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'SV5'    (L-30232, T-31741, R-30203, B-31720)
+   |    |    | ['SV5Static', 'SV5', 'Static52']
+   |    |    | child_window(title="SV5", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30136, T-31741, R-30110, B-31720)
+   |    |    | ['mVStatic5', 'mV5', 'Static53']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '-1.04'    (L-30192, T-31745, R-30136, B-31716)
+   |    |    | ['SV5Edit', 'Edit15']
+   |    |    | child_window(title="-1.04", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar29']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar30']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r15', 'Button32', 'rButton15']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'RV6'    (L-30617, T-31709, R-30586, B-31688)
+   |    |    | ['RV6', 'Static54', 'RV6Static']
+   |    |    | child_window(title="RV6", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30519, T-31709, R-30493, B-31688)
+   |    |    | ['mVStatic6', 'mV6', 'Static55']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '0.05'    (L-30575, T-31713, R-30519, B-31684)
+   |    |    | ['RV6Edit', 'Edit16']
+   |    |    | child_window(title="0.05", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar31']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar32']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r16', 'Button33', 'rButton16']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'SV1+RV5'    (L-30466, T-31709, R-30394, B-31688)
+   |    |    | ['SV1+RV5', 'SV1+RV5Static', 'Static56']
+   |    |    | child_window(title="SV1+RV5", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30326, T-31709, R-30300, B-31688)
+   |    |    | ['mVStatic7', 'mV7', 'Static57']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '1.16'    (L-30384, T-31713, R-30326, B-31684)
+   |    |    | ['SV1+RV5Edit', 'Edit17']
+   |    |    | child_window(title="1.16", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar33']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar34']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r17', 'Button34', 'rButton17']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'RV1+SV5'    (L-30274, T-31709, R-30202, B-31688)
+   |    |    | ['RV1+SV5', 'Static58', 'RV1+SV5Static']
+   |    |    | child_window(title="RV1+SV5", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30134, T-31709, R-30108, B-31688)
+   |    |    | ['mVStatic8', 'mV8', 'Static59']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '1.39'    (L-30192, T-31713, R-30134, B-31684)
+   |    |    | ['RV1+SV5Edit', 'Edit18']
+   |    |    | child_window(title="1.39", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar35']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar36']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r18', 'Button35', 'rButton18']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'SV2+RV6'    (L-30657, T-31677, R-30585, B-31656)
+   |    |    | ['SV2+RV6Static', 'Static60', 'SV2+RV6']
+   |    |    | child_window(title="SV2+RV6", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'mV'    (L-30517, T-31677, R-30491, B-31656)
+   |    |    | ['mVStatic9', 'mV9', 'Static61']
+   |    |    | child_window(title="mV", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '0.49'    (L-30575, T-31681, R-30517, B-31652)
+   |    |    | ['SV2+RV6Edit', 'Edit19']
+   |    |    | child_window(title="0.49", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar37']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar38']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r19', 'Button36', 'rButton19']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'QTc'    (L-30425, T-31677, R-30395, B-31656)
+   |    |    | ['QTc', 'QTcStatic', 'Static62']
+   |    |    | child_window(title="QTc", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'ms'    (L-30323, T-31677, R-30301, B-31656)
+   |    |    | ['Static63', 'ms6', 'msStatic6']
+   |    |    | child_window(title="ms", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '449'    (L-30385, T-31681, R-30323, B-31652)
+   |    |    | ['QTcEdit', 'Edit20']
+   |    |    | child_window(title="449", auto_id="TxtValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar39']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar40']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r20', 'Button37', 'rButton20']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    | 
+   |    | Custom - ''    (L-30665, T-31645, R-30091, B-31033)
+   |    | ['Custom18', 'SV2+RV6Custom']
+   |    | child_window(auto_id="ECGtest", control_type="Custom")
+   |    |    | 
+   |    |    | Image - ''    (L-30650, T-31633, R-30630, B-31613)
+   |    |    | ['Image21', 'SV2+RV6Image']
+   |    |    | 
+   |    |    | Static - '报告诊断'    (L-30625, T-31635, R-30553, B-31611)
+   |    |    | ['报告诊断', '报告诊断Static', 'Static64']
+   |    |    | child_window(title="报告诊断", control_type="Text")
+   |    |    | 
+   |    |    | Static - '待诊断'    (L-30486, T-31635, R-30432, B-31611)
+   |    |    | ['待诊断', 'Static65', '待诊断Static']
+   |    |    | child_window(title="待诊断", control_type="Text")
+   |    |    | 
+   |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    | ['Image22', '待诊断Image']
+   |    |    | 
+   |    |    | Button - '自动诊断'    (L-30269, T-31640, R-30201, B-31606)
+   |    |    | ['自动诊断', '自动诊断Button', 'Button38', '自动诊断0', '自动诊断1']
+   |    |    | child_window(title="自动诊断", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '自动诊断'    (L-30267, T-31634, R-30203, B-31613)
+   |    |    |    | ['自动诊断Static', '自动诊断2', 'Static66']
+   |    |    |    | child_window(title="自动诊断", control_type="Text")
+   |    |    | 
+   |    |    | Separator - ''    (L-30196, T-31630, R-30194, B-31616)
+   |    |    | ['自动诊断Separator', 'Separator', 'Separator0', 'Separator1']
+   |    |    | 
+   |    |    | Button - '编号'    (L0, T0, R0, B0)
+   |    |    | ['编号', 'Button39', '编号Button']
+   |    |    | child_window(title="编号", control_type="Button")
+   |    |    | 
+   |    |    | Separator - ''    (L0, T0, R0, B0)
+   |    |    | ['Separator2']
+   |    |    | 
+   |    |    | Button - '撤回'    (L-30189, T-31640, R-30153, B-31606)
+   |    |    | ['撤回', 'Button40', '撤回Button', '撤回0', '撤回1']
+   |    |    | child_window(title="撤回", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '撤回'    (L-30187, T-31634, R-30155, B-31613)
+   |    |    |    | ['Static67', '撤回Static', '撤回2']
+   |    |    |    | child_window(title="撤回", control_type="Text")
+   |    |    | 
+   |    |    | Separator - ''    (L-30148, T-31630, R-30146, B-31616)
+   |    |    | ['撤回Separator', 'Separator3']
+   |    |    | 
+   |    |    | Button - '清空'    (L-30141, T-31640, R-30105, B-31606)
+   |    |    | ['清空', '清空Button', 'Button41', '清空0', '清空1', '清空Button0', '清空Button1']
+   |    |    | child_window(title="清空", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - '清空'    (L-30139, T-31634, R-30107, B-31613)
+   |    |    |    | ['清空2', '清空Static', 'Static68']
+   |    |    |    | child_window(title="清空", control_type="Text")
+   |    |    | 
+   |    |    | Document - ''    (L-30651, T-31590, R-30105, B-31413)
+   |    |    | ['Document', '清空Document', '报告诊断Document', 'Document0', 'Document1', '报告诊断Document0', '报告诊断Document1']
+   |    |    | child_window(auto_id="DiagnosisEdit", control_type="Document")
+   |    |    | 
+   |    |    | Document - ''    (L-30651, T-31407, R-30105, B-31226)
+   |    |    | ['Document2', '报告诊断Document2']
+   |    |    | child_window(auto_id="DiagnosisDescEdit", control_type="Document")
+   |    |    | 
+   |    |    | Pane - ''    (L-30651, T-31216, R-30105, B-31037)
+   |    |    | ['Pane', '窦性Pane']
+   |    |    |    | 
+   |    |    |    | Button - '窦性'    (L-30650, T-31215, R-30584, B-31187)
+   |    |    |    | ['Button42', '窦性', '窦性Button', '窦性0', '窦性1']
+   |    |    |    | child_window(title="窦性", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '窦性'    (L-30629, T-31209, R-30605, B-31193)
+   |    |    |    |    | ['窦性Static', 'Static69', '窦性2']
+   |    |    |    |    | child_window(title="窦性", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '窦不齐'    (L-30582, T-31215, R-30516, B-31187)
+   |    |    |    | ['窦不齐Button', '窦不齐', 'Button43', '窦不齐0', '窦不齐1']
+   |    |    |    | child_window(title="窦不齐", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '窦不齐'    (L-30567, T-31209, R-30531, B-31193)
+   |    |    |    |    | ['Static70', '窦不齐2', '窦不齐Static']
+   |    |    |    |    | child_window(title="窦不齐", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '正常'    (L-30514, T-31215, R-30448, B-31187)
+   |    |    |    | ['正常Button', '正常', 'Button44', '正常0', '正常1']
+   |    |    |    | child_window(title="正常", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '正常'    (L-30493, T-31209, R-30469, B-31193)
+   |    |    |    |    | ['正常Static', 'Static71', '正常2']
+   |    |    |    |    | child_window(title="正常", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '大致'    (L-30445, T-31215, R-30379, B-31187)
+   |    |    |    | ['大致', '大致Button', 'Button45', '大致0', '大致1']
+   |    |    |    | child_window(title="大致", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '大致'    (L-30424, T-31209, R-30400, B-31193)
+   |    |    |    |    | ['大致2', 'Static72', '大致Static']
+   |    |    |    |    | child_window(title="大致", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '范围'    (L-30377, T-31215, R-30311, B-31187)
+   |    |    |    | ['范围Button', '范围', 'Button46', '范围0', '范围1']
+   |    |    |    | child_window(title="范围", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '范围'    (L-30356, T-31209, R-30332, B-31193)
+   |    |    |    |    | ['Static73', '范围2', '范围Static']
+   |    |    |    |    | child_window(title="范围", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '干扰'    (L-30309, T-31215, R-30243, B-31187)
+   |    |    |    | ['干扰', 'Button47', '干扰Button', '干扰0', '干扰1']
+   |    |    |    | child_window(title="干扰", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '干扰'    (L-30288, T-31209, R-30264, B-31193)
+   |    |    |    |    | ['干扰2', 'Static74', '干扰Static']
+   |    |    |    |    | child_window(title="干扰", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Ⅰ'    (L-30240, T-31215, R-30174, B-31187)
+   |    |    |    | ['Ⅰ', 'ⅠButton', 'Button48', 'Ⅰ0', 'Ⅰ1']
+   |    |    |    | child_window(title="Ⅰ", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Ⅰ'    (L-30213, T-31209, R-30201, B-31193)
+   |    |    |    |    | ['Ⅰ2', 'Static75', 'ⅠStatic']
+   |    |    |    |    | child_window(title="Ⅰ", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Ⅱ'    (L-30172, T-31215, R-30106, B-31187)
+   |    |    |    | ['Ⅱ', 'Button49', 'ⅡButton', 'Ⅱ0', 'Ⅱ1', 'ⅡButton0', 'ⅡButton1']
+   |    |    |    | child_window(title="Ⅱ", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Ⅱ'    (L-30145, T-31209, R-30133, B-31193)
+   |    |    |    |    | ['Ⅱ2', 'Static76', 'ⅡStatic']
+   |    |    |    |    | child_window(title="Ⅱ", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '  Ⅲ'    (L-30650, T-31185, R-30584, B-31157)
+   |    |    |    | ['  Ⅲ', 'Button50', '  ⅢButton', '  Ⅲ0', '  Ⅲ1']
+   |    |    |    | child_window(title="  Ⅲ", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '  Ⅲ'    (L-30626, T-31179, R-30607, B-31163)
+   |    |    |    |    | ['  ⅢStatic', 'Static77', '  Ⅲ2']
+   |    |    |    |    | child_window(title="  Ⅲ", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' aVR'    (L-30582, T-31185, R-30516, B-31157)
+   |    |    |    | [' aVRButton', 'Button51', ' aVR', ' aVR0', ' aVR1']
+   |    |    |    | child_window(title=" aVR", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' aVR'    (L-30562, T-31179, R-30536, B-31163)
+   |    |    |    |    | [' aVRStatic', 'Static78', ' aVR2']
+   |    |    |    |    | child_window(title=" aVR", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' aVL'    (L-30514, T-31185, R-30448, B-31157)
+   |    |    |    | [' aVL', 'Button52', ' aVLButton', ' aVL0', ' aVL1']
+   |    |    |    | child_window(title=" aVL", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' aVL'    (L-30493, T-31179, R-30469, B-31163)
+   |    |    |    |    | [' aVLStatic', ' aVL2', 'Static79']
+   |    |    |    |    | child_window(title=" aVL", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' aVF'    (L-30445, T-31185, R-30379, B-31157)
+   |    |    |    | [' aVF', ' aVFButton', 'Button53', ' aVF0', ' aVF1']
+   |    |    |    | child_window(title=" aVF", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' aVF'    (L-30425, T-31179, R-30400, B-31163)
+   |    |    |    |    | [' aVF2', ' aVFStatic', 'Static80']
+   |    |    |    |    | child_window(title=" aVF", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' V1'    (L-30377, T-31185, R-30311, B-31157)
+   |    |    |    | [' V1', 'Button54', ' V1Button', ' V10', ' V11']
+   |    |    |    | child_window(title=" V1", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' V1'    (L-30353, T-31179, R-30334, B-31163)
+   |    |    |    |    | [' V1Static', 'Static81', ' V12']
+   |    |    |    |    | child_window(title=" V1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' V2'    (L-30309, T-31185, R-30243, B-31157)
+   |    |    |    | ['Button55', ' V2', ' V2Button', ' V20', ' V21']
+   |    |    |    | child_window(title=" V2", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' V2'    (L-30285, T-31179, R-30266, B-31163)
+   |    |    |    |    | ['Static82', ' V22', ' V2Static']
+   |    |    |    |    | child_window(title=" V2", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' V3'    (L-30240, T-31185, R-30174, B-31157)
+   |    |    |    | [' V3Button', 'Button56', ' V3', ' V30', ' V31']
+   |    |    |    | child_window(title=" V3", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' V3'    (L-30216, T-31179, R-30197, B-31163)
+   |    |    |    |    | ['Static83', ' V3Static', ' V32']
+   |    |    |    |    | child_window(title=" V3", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' V4 '    (L-30172, T-31185, R-30106, B-31157)
+   |    |    |    | [' V4 Button', 'Button57', ' V4 ', ' V4 0', ' V4 1', ' V4 Button0', ' V4 Button1']
+   |    |    |    | child_window(title=" V4 ", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' V4 '    (L-30150, T-31179, R-30128, B-31163)
+   |    |    |    |    | [' V4 Static', 'Static84', ' V4 2']
+   |    |    |    |    | child_window(title=" V4 ", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'V5'    (L-30650, T-31155, R-30584, B-31127)
+   |    |    |    | ['Button58', 'V5', 'V5Button', 'V50', 'V51']
+   |    |    |    | child_window(title="V5", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'V5'    (L-30624, T-31149, R-30609, B-31133)
+   |    |    |    |    | ['Static85', 'V52', 'V5Static']
+   |    |    |    |    | child_window(title="V5", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' V6'    (L-30582, T-31155, R-30516, B-31127)
+   |    |    |    | [' V6', ' V6Button', 'Button59', ' V60', ' V61']
+   |    |    |    | child_window(title=" V6", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' V6'    (L-30558, T-31149, R-30539, B-31133)
+   |    |    |    |    | [' V62', ' V6Static', 'Static86']
+   |    |    |    |    | child_window(title=" V6", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' （'    (L-30514, T-31155, R-30448, B-31127)
+   |    |    |    | [' （', ' （Button', 'Button60', ' （0', ' （1']
+   |    |    |    | child_window(title=" （", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' （'    (L-30489, T-31149, R-30473, B-31133)
+   |    |    |    |    | [' （2', ' （Static', 'Static87']
+   |    |    |    |    | child_window(title=" （", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '）'    (L-30445, T-31155, R-30379, B-31127)
+   |    |    |    | ['）Button', '）', 'Button61', '）0', '）1']
+   |    |    |    | child_window(title="）", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '）'    (L-30418, T-31149, R-30406, B-31133)
+   |    |    |    |    | ['）Static', '）2', 'Static88']
+   |    |    |    |    | child_window(title="）", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'mm'    (L-30377, T-31155, R-30311, B-31127)
+   |    |    |    | ['mmButton', 'mm', 'Button62', 'mm0', 'mm1']
+   |    |    |    | child_window(title="mm", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'mm'    (L-30355, T-31149, R-30333, B-31133)
+   |    |    |    |    | ['mmStatic', 'Static89', 'mm2']
+   |    |    |    |    | child_window(title="mm", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '-'    (L-30309, T-31155, R-30243, B-31127)
+   |    |    |    | ['Button63', '-Button', '-', '-0', '-1']
+   |    |    |    | child_window(title="-", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '-'    (L-30279, T-31149, R-30274, B-31133)
+   |    |    |    |    | ['Static90', '-Static', '-2']
+   |    |    |    |    | child_window(title="-", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'ST'    (L-30240, T-31155, R-30174, B-31127)
+   |    |    |    | ['ST', 'Button64', 'STButton', 'ST0', 'ST1']
+   |    |    |    | child_window(title="ST", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'ST'    (L-30214, T-31149, R-30200, B-31133)
+   |    |    |    |    | ['STStatic', 'Static91', 'ST2']
+   |    |    |    |    | child_window(title="ST", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'T'    (L-30172, T-31155, R-30106, B-31127)
+   |    |    |    | ['T', 'Button65', 'TButton', 'T0', 'T1', 'TButton0', 'TButton1']
+   |    |    |    | child_window(title="T", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'T'    (L-30142, T-31149, R-30135, B-31133)
+   |    |    |    |    | ['T2', 'Static92', 'TStatic']
+   |    |    |    |    | child_window(title="T", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'U'    (L-30650, T-31125, R-30584, B-31097)
+   |    |    |    | ['U', 'UButton', 'Button66', 'U0', 'U1']
+   |    |    |    | child_window(title="U", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'U'    (L-30622, T-31119, R-30613, B-31103)
+   |    |    |    |    | ['UStatic', 'U2', 'Static93']
+   |    |    |    |    | child_window(title="U", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '>'    (L-30582, T-31125, R-30516, B-31097)
+   |    |    |    | ['>', 'Button67', '>Button', '>0', '>1']
+   |    |    |    | child_window(title=">", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '>'    (L-30554, T-31119, R-30545, B-31103)
+   |    |    |    |    | ['>2', 'Static94', '>Static']
+   |    |    |    |    | child_window(title=">", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '='    (L-30514, T-31125, R-30448, B-31097)
+   |    |    |    | ['=', 'Button68', '=Button', '=0', '=1']
+   |    |    |    | child_window(title="=", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '='    (L-30486, T-31119, R-30477, B-31103)
+   |    |    |    |    | ['=Static', 'Static95', '=2']
+   |    |    |    |    | child_window(title="=", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '<'    (L-30445, T-31125, R-30379, B-31097)
+   |    |    |    | ['Button69', '<Button', '<', '<0', '<1']
+   |    |    |    | child_window(title="<", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '<'    (L-30417, T-31119, R-30408, B-31103)
+   |    |    |    |    | ['Static96', '<Static', '<2']
+   |    |    |    |    | child_window(title="<", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '0.5'    (L-30377, T-31125, R-30311, B-31097)
+   |    |    |    | ['0.5Button', '0.5', 'Button70', '0.50', '0.51']
+   |    |    |    | child_window(title="0.5", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '0.5'    (L-30353, T-31119, R-30336, B-31103)
+   |    |    |    |    | ['0.5Static', '0.52', 'Static97']
+   |    |    |    |    | child_window(title="0.5", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '1'    (L-30309, T-31125, R-30243, B-31097)
+   |    |    |    | ['1', 'Button71', '1Button', '10', '11']
+   |    |    |    | child_window(title="1", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '1'    (L-30279, T-31119, R-30272, B-31103)
+   |    |    |    |    | ['12', 'Static98', '1Static']
+   |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '2'    (L-30240, T-31125, R-30174, B-31097)
+   |    |    |    | ['2Button', 'Button72', '2', '20', '21']
+   |    |    |    | child_window(title="2", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '2'    (L-30210, T-31119, R-30203, B-31103)
+   |    |    |    |    | ['2Static', 'Static99', '22']
+   |    |    |    |    | child_window(title="2", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '°'    (L-30172, T-31125, R-30106, B-31097)
+   |    |    |    | ['°Button', '°4', 'Button73', '°Button0', '°Button1']
+   |    |    |    | child_window(title="°", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '°'    (L-30142, T-31119, R-30137, B-31103)
+   |    |    |    |    | ['Static100', '°5', '°Static4']
+   |    |    |    |    | child_window(title="°", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - ' 压'    (L-30650, T-31096, R-30584, B-31068)
+   |    |    |    | [' 压', ' 压Button', 'Button74', ' 压0', ' 压1']
+   |    |    |    | child_window(title=" 压", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ' 压'    (L-30625, T-31090, R-30609, B-31074)
+   |    |    |    |    | [' 压2', 'Static101', ' 压Static']
+   |    |    |    |    | child_window(title=" 压", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '抬'    (L-30582, T-31096, R-30516, B-31068)
+   |    |    |    | ['抬', '抬Button', 'Button75', '抬0', '抬1']
+   |    |    |    | child_window(title="抬", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '抬'    (L-30555, T-31090, R-30543, B-31074)
+   |    |    |    |    | ['抬2', '抬Static', 'Static102']
+   |    |    |    |    | child_window(title="抬", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '低'    (L-30514, T-31096, R-30448, B-31068)
+   |    |    |    | ['低Button', 'Button76', '低', '低0', '低1']
+   |    |    |    | child_window(title="低", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '低'    (L-30487, T-31090, R-30475, B-31074)
+   |    |    |    |    | ['低Static', 'Static103', '低2']
+   |    |    |    |    | child_window(title="低", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '双'    (L-30445, T-31096, R-30379, B-31068)
+   |    |    |    | ['双Button', '双', 'Button77', '双0', '双1']
+   |    |    |    | child_window(title="双", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '双'    (L-30418, T-31090, R-30406, B-31074)
+   |    |    |    |    | ['双2', 'Static104', '双Static']
+   |    |    |    |    | child_window(title="双", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '倒'    (L-30377, T-31096, R-30311, B-31068)
+   |    |    |    | ['倒', '倒Button', 'Button78', '倒0', '倒1']
+   |    |    |    | child_window(title="倒", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '倒'    (L-30350, T-31090, R-30338, B-31074)
+   |    |    |    |    | ['倒Static', '倒2', 'Static105']
+   |    |    |    |    | child_window(title="倒", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '切'    (L-30309, T-31096, R-30243, B-31068)
+   |    |    |    | ['切', '切Button', 'Button79', '切0', '切1']
+   |    |    |    | child_window(title="切", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '切'    (L-30282, T-31090, R-30270, B-31074)
+   |    |    |    |    | ['切2', 'Static106', '切Static']
+   |    |    |    |    | child_window(title="切", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '峰'    (L-30240, T-31096, R-30174, B-31068)
+   |    |    |    | ['峰Button', '峰', 'Button80', '峰0', '峰1']
+   |    |    |    | child_window(title="峰", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '峰'    (L-30213, T-31090, R-30201, B-31074)
+   |    |    |    |    | ['峰Static', '峰2', 'Static107']
+   |    |    |    |    | child_window(title="峰", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '浅'    (L-30172, T-31096, R-30106, B-31068)
+   |    |    |    | ['浅Button', '浅', 'Button81', '浅0', '浅1', '浅Button0', '浅Button1']
+   |    |    |    | child_window(title="浅", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '浅'    (L-30145, T-31090, R-30133, B-31074)
+   |    |    |    |    | ['浅Static', '浅2', 'Static108']
+   |    |    |    |    | child_window(title="浅", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '异'    (L-30650, T-31066, R-30584, B-31038)
+   |    |    |    | ['异', '异Button', 'Button82', '异0', '异1']
+   |    |    |    | child_window(title="异", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '异'    (L-30623, T-31060, R-30611, B-31044)
+   |    |    |    |    | ['异Static', 'Static109', '异2']
+   |    |    |    |    | child_window(title="异", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '斜'    (L-30582, T-31066, R-30516, B-31038)
+   |    |    |    | ['斜Button', '斜', 'Button83', '斜0', '斜1']
+   |    |    |    | child_window(title="斜", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '斜'    (L-30555, T-31060, R-30543, B-31044)
+   |    |    |    |    | ['Static110', '斜2', '斜Static']
+   |    |    |    |    | child_window(title="斜", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '水'    (L-30514, T-31066, R-30448, B-31038)
+   |    |    |    | ['水', 'Button84', '水Button', '水0', '水1']
+   |    |    |    | child_window(title="水", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '水'    (L-30487, T-31060, R-30475, B-31044)
+   |    |    |    |    | ['水Static', '水2', 'Static111']
+   |    |    |    |    | child_window(title="水", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '下'    (L-30445, T-31066, R-30379, B-31038)
+   |    |    |    | ['下', '下Button', 'Button85', '下0', '下1']
+   |    |    |    | child_window(title="下", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '下'    (L-30418, T-31060, R-30406, B-31044)
+   |    |    |    |    | ['下2', 'Static112', '下Static']
+   |    |    |    |    | child_window(title="下", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'QR'    (L-30377, T-31066, R-30311, B-31038)
+   |    |    |    | ['QR', 'Button86', 'QRButton', 'QR0', 'QR1']
+   |    |    |    | child_window(title="QR", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'QR'    (L-30353, T-31060, R-30335, B-31044)
+   |    |    |    |    | ['QR2', 'Static113', 'QRStatic']
+   |    |    |    |    | child_window(title="QR", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'QS'    (L-30309, T-31066, R-30243, B-31038)
+   |    |    |    | ['QS', 'Button87', 'QSButton', 'QS0', 'QS1']
+   |    |    |    | child_window(title="QS", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'QS'    (L-30285, T-31060, R-30268, B-31044)
+   |    |    |    |    | ['QS2', 'QSStatic', 'Static114']
+   |    |    |    |    | child_window(title="QS", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Qr'    (L-30240, T-31066, R-30174, B-31038)
+   |    |    |    | ['Button88', 'QrButton', 'Qr', 'Qr0', 'Qr1']
+   |    |    |    | child_window(title="Qr", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Qr'    (L-30214, T-31060, R-30200, B-31044)
+   |    |    |    |    | ['QrStatic', 'Static115', 'Qr2']
+   |    |    |    |    | child_window(title="Qr", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - '>4R'    (L-30172, T-31066, R-30106, B-31038)
+   |    |    |    | ['>4RButton', 'Button89', '>4R', '>4R0', '>4R1', '>4RButton0', '>4RButton1']
+   |    |    |    | child_window(title=">4R", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '>4R'    (L-30151, T-31060, R-30127, B-31044)
+   |    |    |    |    | ['Static116', '>4RStatic', '>4R2']
+   |    |    |    |    | child_window(title=">4R", control_type="Text")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['>4RScrollBar', 'ScrollBar41']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar42']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    | 
+   |    | Button - '提 交'    (L0, T0, R0, B0)
+   |    | ['提 交', '提 交Button', 'Button90']
+   |    | child_window(title="提 交", control_type="Button")
+   |    | 
+   |    | Button - '打 印'    (L-30524, T-31013, R-30432, B-30973)
+   |    | ['Button91', '打 印', '打 印Button', '打 印0', '打 印1']
+   |    | child_window(title="打 印", control_type="Button")
+   |    |    | 
+   |    |    | Static - '打 印'    (L-30498, T-31005, R-30457, B-30981)
+   |    |    | ['打 印Static', 'Static117', '打 印2']
+   |    |    | child_window(title="打 印", control_type="Text")
+   |    | 
+   |    | Button - '返 回'    (L-30424, T-31013, R-30332, B-30973)
+   |    | ['返 回Button', '返 回', 'Button92', '返 回0', '返 回1', '返 回Button0', '返 回Button1']
+   |    | child_window(title="返 回", control_type="Button")
+   |    |    | 
+   |    |    | Static - '返 回'    (L-30398, T-31005, R-30357, B-30981)
+   |    |    | ['返 回Static', '返 回2', 'Static118']
+   |    |    | child_window(title="返 回", control_type="Text")
+   |    | 
+   |    | Button - ''    (L-30324, T-31013, R-30232, B-30973)
+   |    | ['返 回Button2', 'Button93']
+   |    | child_window(auto_id="menuMore", control_type="Button")
+   |    |    | 
+   |    |    | Static - '更 多'    (L-30289, T-31005, R-30248, B-30981)
+   |    |    | ['更 多', '更 多Static', 'Static119']
+   |    |    | child_window(title="更 多", control_type="Text")
+   |    | 
+   |    | Static - ''    (L-30110, T-31472, R-30092, B-31454)
+   |    | ['\uf137Static', 'Static120', '\uf137']
+   |    | child_window(title="", auto_id="Icon", control_type="Text")
+   |    | 
+   |    | Static - '词\r\n库'    (L-30109, T-31454, R-30093, B-31412)
+   |    | ['词\r\n库Static', 'Static121', '词\r\n库']
+   |    | child_window(title="词\r\n库", auto_id="wordTitle", control_type="Text")
+   |    | 
+   |    | Custom - ''    (L-30081, T-31915, R-29781, B-30969)
+   |    | ['Custom19', '测值信息Custom', '词\r\n库Custom']
+   |    |    | 
+   |    |    | Static - ''    (L-29812, T-31890, R-29801, B-31878)
+   |    |    | ['\uf002', '\uf002Static', 'Static122']
+   |    |    | child_window(title="", control_type="Text")
+   |    |    | 
+   |    |    | Static - ''    (L-29826, T-31890, R-29817, B-31878)
+   |    |    | ['\uf00dStatic', 'Static123', '\uf00d']
+   |    |    | child_window(title="", control_type="Text")
+   |    |    | 
+   |    |    | Edit - ''    (L-30066, T-31901, R-29826, B-31866)
+   |    |    | ['测值信息Edit', 'Edit21']
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar43']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar44']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Button - 'r'    (L0, T0, R0, B0)
+   |    |    |    | ['r21', 'Button94', 'rButton21']
+   |    |    |    | child_window(title="r", auto_id="PART_ClearText", control_type="Button")
+   |    |    | 
+   |    |    | TreeView - ''    (L-30081, T-31852, R-29781, B-30969)
+   |    |    | ['TreeView', '°TreeView']
+   |    |    | child_window(auto_id="tvWord", control_type="Tree")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31852, R-29596, B-31757)
+   |    |    |    | ['TreeItem', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem', 'TreeItem0', 'TreeItem1', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory0', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory1', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem0', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem1']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31842, R-30063, B-31826)
+   |    |    |    |    | ['msButton', 'Button95']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'A01|窦性心律'    (L-30061, T-31845, R-29963, B-31824)
+   |    |    |    |    | ['A01|窦性心律', 'A01|窦性心律Static', 'Static124']
+   |    |    |    |    | child_window(title="A01|窦性心律", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word'    (L-30062, T-31817, R-29596, B-31787)
+   |    |    |    |    | ['Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word', 'TreeItem2', 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.WordTreeItem', 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word0', 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word1', 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.WordTreeItem0', 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.WordTreeItem1']
+   |    |    |    |    | child_window(title="Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L-30060, T-31810, R-30044, B-31794)
+   |    |    |    |    |    | ['A01|窦性心律Button', 'Button96', 'A01|窦性心律Button0', 'A01|窦性心律Button1']
+   |    |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '窦性心律'    (L-30042, T-31813, R-29978, B-31792)
+   |    |    |    |    |    | ['窦性心律', 'Static125', '窦性心律Static']
+   |    |    |    |    |    | child_window(title="窦性心律", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word'    (L-30062, T-31787, R-29596, B-31757)
+   |    |    |    |    | ['Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word2', 'TreeItem3', 'Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.WordTreeItem2']
+   |    |    |    |    | child_window(title="Aquarium.Ecg.Client.Models.Cloud.Whale.Dtos.Models.Word", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L-30060, T-31780, R-30044, B-31764)
+   |    |    |    |    |    | ['A01|窦性心律Button2', 'Button97']
+   |    |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '窦性心律，均未下传心室'    (L-30042, T-31783, R-29866, B-31762)
+   |    |    |    |    |    | ['Static126', '窦性心律，均未下传心室Static', '窦性心律，均未下传心室']
+   |    |    |    |    |    | child_window(title="窦性心律，均未下传心室", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31757, R-29596, B-31722)
+   |    |    |    | ['TreeItem4', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory2', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem2']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31747, R-30063, B-31731)
+   |    |    |    |    | ['mVButton', 'Button98', 'mVButton0', 'mVButton1']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'A02|窦性心律紊乱'    (L-30061, T-31750, R-29931, B-31729)
+   |    |    |    |    | ['A02|窦性心律紊乱Static', 'Static127', 'A02|窦性心律紊乱']
+   |    |    |    |    | child_window(title="A02|窦性心律紊乱", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31722, R-29596, B-31687)
+   |    |    |    | ['TreeItem5', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory3', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem3']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31712, R-30063, B-31696)
+   |    |    |    |    | ['mVButton2', 'Button99']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'A03|窦性心动过速'    (L-30061, T-31715, R-29931, B-31694)
+   |    |    |    |    | ['A03|窦性心动过速Static', 'Static128', 'A03|窦性心动过速']
+   |    |    |    |    | child_window(title="A03|窦性心动过速", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31687, R-29596, B-31652)
+   |    |    |    | ['TreeItem6', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory4', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem4']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31677, R-30063, B-31661)
+   |    |    |    |    | ['mVButton3', 'Button100']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'A04|窦性心动过缓'    (L-30061, T-31680, R-29931, B-31659)
+   |    |    |    |    | ['A04|窦性心动过缓Static', 'A04|窦性心动过缓', 'Static129']
+   |    |    |    |    | child_window(title="A04|窦性心动过缓", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31652, R-29596, B-31617)
+   |    |    |    | ['TreeItem7', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory5', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem5']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31642, R-30063, B-31626)
+   |    |    |    |    | ['清空Button2', 'Button101']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'A05|窦房阻滞'    (L-30061, T-31645, R-29963, B-31624)
+   |    |    |    |    | ['A05|窦房阻滞Static', 'A05|窦房阻滞', 'Static130']
+   |    |    |    |    | child_window(title="A05|窦房阻滞", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31617, R-29596, B-31582)
+   |    |    |    | ['TreeItem8', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory6', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem6']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31607, R-30063, B-31591)
+   |    |    |    |    | ['清空Button3', 'Button102']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B01|房性心律紊乱'    (L-30061, T-31610, R-29932, B-31589)
+   |    |    |    |    | ['B01|房性心律紊乱', 'B01|房性心律紊乱Static', 'Static131']
+   |    |    |    |    | child_window(title="B01|房性心律紊乱", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31582, R-29596, B-31547)
+   |    |    |    | ['TreeItem9', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory7', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem7']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31572, R-30063, B-31556)
+   |    |    |    |    | ['清空Button4', 'Button103']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B02|房性心动过速'    (L-30061, T-31575, R-29932, B-31554)
+   |    |    |    |    | ['B02|房性心动过速', 'Static132', 'B02|房性心动过速Static']
+   |    |    |    |    | child_window(title="B02|房性心动过速", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31547, R-29596, B-31512)
+   |    |    |    | ['TreeItem10', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory8', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem8']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31537, R-30063, B-31521)
+   |    |    |    |    | ['清空Button5', 'Button104']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B03|心房扑动'    (L-30061, T-31540, R-29964, B-31519)
+   |    |    |    |    | ['B03|心房扑动', 'Static133', 'B03|心房扑动Static']
+   |    |    |    |    | child_window(title="B03|心房扑动", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31512, R-29596, B-31477)
+   |    |    |    | ['TreeItem11', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory9', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem9']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31502, R-30063, B-31486)
+   |    |    |    |    | ['清空Button6', 'Button105']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B04|心房颤动'    (L-30061, T-31505, R-29964, B-31484)
+   |    |    |    |    | ['B04|心房颤动', 'B04|心房颤动Static', 'Static134']
+   |    |    |    |    | child_window(title="B04|心房颤动", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31477, R-29596, B-31442)
+   |    |    |    | ['TreeItem12', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory10', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem10']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31467, R-30063, B-31451)
+   |    |    |    |    | ['\uf137Button', 'Button106']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B05|房性逸博'    (L-30061, T-31470, R-29964, B-31449)
+   |    |    |    |    | ['B05|房性逸博Static', 'B05|房性逸博', 'Static135']
+   |    |    |    |    | child_window(title="B05|房性逸博", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31442, R-29596, B-31407)
+   |    |    |    | ['TreeItem13', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory11', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem11']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31432, R-30063, B-31416)
+   |    |    |    |    | ['词\r\n库Button', 'Button107', '词\r\n库Button0', '词\r\n库Button1']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B06|心房传导障碍'    (L-30061, T-31435, R-29932, B-31414)
+   |    |    |    |    | ['B06|心房传导障碍', 'Static136', 'B06|心房传导障碍Static']
+   |    |    |    |    | child_window(title="B06|心房传导障碍", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31407, R-29596, B-31372)
+   |    |    |    | ['TreeItem14', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory12', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem12']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31397, R-30063, B-31381)
+   |    |    |    |    | ['词\r\n库Button2', 'Button108']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B07|房室交界性心律紊乱'    (L-30061, T-31400, R-29884, B-31379)
+   |    |    |    |    | ['B07|房室交界性心律紊乱', 'Static137', 'B07|房室交界性心律紊乱Static']
+   |    |    |    |    | child_window(title="B07|房室交界性心律紊乱", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31372, R-29596, B-31337)
+   |    |    |    | ['TreeItem15', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory13', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem13']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31362, R-30063, B-31346)
+   |    |    |    |    | ['词\r\n库Button3', 'Button109']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B08|房室交界性心动过速'    (L-30061, T-31365, R-29884, B-31344)
+   |    |    |    |    | ['B08|房室交界性心动过速', 'B08|房室交界性心动过速Static', 'Static138']
+   |    |    |    |    | child_window(title="B08|房室交界性心动过速", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31337, R-29596, B-31302)
+   |    |    |    | ['TreeItem16', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory14', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem14']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31327, R-30063, B-31311)
+   |    |    |    |    | ['词\r\n库Button4', 'Button110']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B09|房室交界性逸博'    (L-30061, T-31330, R-29916, B-31309)
+   |    |    |    |    | ['B09|房室交界性逸博Static', 'B09|房室交界性逸博', 'Static139']
+   |    |    |    |    | child_window(title="B09|房室交界性逸博", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31302, R-29596, B-31267)
+   |    |    |    | ['TreeItem17', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory15', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem15']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31292, R-30063, B-31276)
+   |    |    |    |    | ['词\r\n库Button5', 'Button111']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B10|房室阻滞'    (L-30061, T-31295, R-29964, B-31274)
+   |    |    |    |    | ['B10|房室阻滞', 'Static140', 'B10|房室阻滞Static']
+   |    |    |    |    | child_window(title="B10|房室阻滞", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31267, R-29596, B-31232)
+   |    |    |    | ['TreeItem18', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory16', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem16']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31257, R-30063, B-31241)
+   |    |    |    |    | ['词\r\n库Button6', 'Button112']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'B11房室分离'    (L-30061, T-31260, R-29968, B-31239)
+   |    |    |    |    | ['B11房室分离', 'B11房室分离Static', 'Static141']
+   |    |    |    |    | child_window(title="B11房室分离", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31232, R-29596, B-31197)
+   |    |    |    | ['TreeItem19', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory17', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem17']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31222, R-30063, B-31206)
+   |    |    |    |    | ['Button113', 'ⅡButton2']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'C01|室性心律紊乱'    (L-30061, T-31225, R-29931, B-31204)
+   |    |    |    |    | ['Static142', 'C01|室性心律紊乱Static', 'C01|室性心律紊乱']
+   |    |    |    |    | child_window(title="C01|室性心律紊乱", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31197, R-29596, B-31162)
+   |    |    |    | ['TreeItem20', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory18', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem18']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31187, R-30063, B-31171)
+   |    |    |    |    | [' V4 Button2', 'Button114']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'C02|室性心动过速'    (L-30061, T-31190, R-29931, B-31169)
+   |    |    |    |    | ['C02|室性心动过速', 'Static143', 'C02|室性心动过速Static']
+   |    |    |    |    | child_window(title="C02|室性心动过速", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31162, R-29596, B-31127)
+   |    |    |    | ['TreeItem21', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory19', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem19']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31152, R-30063, B-31136)
+   |    |    |    |    | ['Button115', 'TButton2']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'C03|室扑'    (L-30061, T-31155, R-29995, B-31134)
+   |    |    |    |    | ['C03|室扑', 'Static144', 'C03|室扑Static']
+   |    |    |    |    | child_window(title="C03|室扑", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31127, R-29596, B-31092)
+   |    |    |    | ['TreeItem22', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory20', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem20']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31117, R-30063, B-31101)
+   |    |    |    |    | ['°Button2', 'Button116']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'C04|室颤'    (L-30061, T-31120, R-29995, B-31099)
+   |    |    |    |    | ['C04|室颤', 'Static145', 'C04|室颤Static']
+   |    |    |    |    | child_window(title="C04|室颤", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31092, R-29596, B-31057)
+   |    |    |    | ['TreeItem23', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory21', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem21']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31082, R-30063, B-31066)
+   |    |    |    |    | ['浅Button2', 'Button117']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'C05|室性逸博'    (L-30061, T-31085, R-29963, B-31064)
+   |    |    |    |    | ['C05|室性逸博', 'Static146', 'C05|室性逸博Static']
+   |    |    |    |    | child_window(title="C05|室性逸博", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31057, R-29596, B-31022)
+   |    |    |    | ['TreeItem24', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory22', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem22']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31047, R-30063, B-31031)
+   |    |    |    |    | ['>4RButton2', 'Button118']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'C06|心室内阻滞'    (L-30061, T-31050, R-29947, B-31029)
+   |    |    |    |    | ['C06|心室内阻滞', 'C06|心室内阻滞Static', 'Static147']
+   |    |    |    |    | child_window(title="C06|心室内阻滞", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-31022, R-29596, B-30987)
+   |    |    |    | ['TreeItem25', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory23', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem23']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-31012, R-30063, B-30996)
+   |    |    |    |    | ['>4RButton3', 'Button119']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D01|前壁心肌梗死'    (L-30061, T-31015, R-29930, B-30994)
+   |    |    |    |    | ['Static148', 'D01|前壁心肌梗死Static', 'D01|前壁心肌梗死']
+   |    |    |    |    | child_window(title="D01|前壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30987, R-29596, B-30952)
+   |    |    |    | ['TreeItem26', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory24', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem24']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30977, R-30063, B-30961)
+   |    |    |    |    | ['>4RButton4', 'Button120']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D02|广泛前壁心肌梗死'    (L-30061, T-30980, R-29898, B-30959)
+   |    |    |    |    | ['D02|广泛前壁心肌梗死Static', 'D02|广泛前壁心肌梗死', 'Static149']
+   |    |    |    |    | child_window(title="D02|广泛前壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30952, R-29596, B-30917)
+   |    |    |    | ['TreeItem27', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory25', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem25']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30942, R-30063, B-30926)
+   |    |    |    |    | ['>4RButton5', 'Button121']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D03|前间壁心肌梗死'    (L-30061, T-30945, R-29914, B-30924)
+   |    |    |    |    | ['D03|前间壁心肌梗死', 'D03|前间壁心肌梗死Static', 'Static150']
+   |    |    |    |    | child_window(title="D03|前间壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30917, R-29596, B-30882)
+   |    |    |    | ['TreeItem28', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory26', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem26']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30907, R-30063, B-30891)
+   |    |    |    |    | ['>4RButton6', 'Button122']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D04|前侧壁心肌梗死'    (L-30061, T-30910, R-29914, B-30889)
+   |    |    |    |    | ['Static151', 'D04|前侧壁心肌梗死', 'D04|前侧壁心肌梗死Static']
+   |    |    |    |    | child_window(title="D04|前侧壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30882, R-29596, B-30847)
+   |    |    |    | ['TreeItem29', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory27', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem27']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30872, R-30063, B-30856)
+   |    |    |    |    | ['>4RButton7', 'Button123']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D05|前间隔心肌梗死'    (L-30061, T-30875, R-29914, B-30854)
+   |    |    |    |    | ['Static152', 'D05|前间隔心肌梗死', 'D05|前间隔心肌梗死Static']
+   |    |    |    |    | child_window(title="D05|前间隔心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30847, R-29596, B-30812)
+   |    |    |    | ['TreeItem30', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory28', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem28']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30837, R-30063, B-30821)
+   |    |    |    |    | ['>4RButton8', 'Button124']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D06|下壁心肌梗死'    (L-30061, T-30840, R-29930, B-30819)
+   |    |    |    |    | ['D06|下壁心肌梗死', 'D06|下壁心肌梗死Static', 'Static153']
+   |    |    |    |    | child_window(title="D06|下壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30812, R-29596, B-30777)
+   |    |    |    | ['TreeItem31', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory29', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem29']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30802, R-30063, B-30786)
+   |    |    |    |    | ['>4RButton9', 'Button125']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D07|下侧壁心肌梗死'    (L-30061, T-30805, R-29914, B-30784)
+   |    |    |    |    | ['D07|下侧壁心肌梗死Static', 'D07|下侧壁心肌梗死', 'Static154']
+   |    |    |    |    | child_window(title="D07|下侧壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30777, R-29596, B-30742)
+   |    |    |    | ['TreeItem32', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory30', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem30']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30767, R-30063, B-30751)
+   |    |    |    |    | ['>4RButton10', 'Button126']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D08|下后壁心肌梗死'    (L-30061, T-30770, R-29914, B-30749)
+   |    |    |    |    | ['Static155', 'D08|下后壁心肌梗死Static', 'D08|下后壁心肌梗死']
+   |    |    |    |    | child_window(title="D08|下后壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30742, R-29596, B-30707)
+   |    |    |    | ['TreeItem33', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory31', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem31']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30732, R-30063, B-30716)
+   |    |    |    |    | ['>4RButton11', 'Button127']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D09|右心室心肌梗死'    (L-30061, T-30735, R-29914, B-30714)
+   |    |    |    |    | ['D09|右心室心肌梗死', 'Static156', 'D09|右心室心肌梗死Static']
+   |    |    |    |    | child_window(title="D09|右心室心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30707, R-29596, B-30672)
+   |    |    |    | ['TreeItem34', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory32', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem32']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30697, R-30063, B-30681)
+   |    |    |    |    | ['>4RButton12', 'Button128']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D10|侧壁心肌梗死'    (L-30061, T-30700, R-29930, B-30679)
+   |    |    |    |    | ['Static157', 'D10|侧壁心肌梗死Static', 'D10|侧壁心肌梗死']
+   |    |    |    |    | child_window(title="D10|侧壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30672, R-29596, B-30637)
+   |    |    |    | ['TreeItem35', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory33', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem33']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30662, R-30063, B-30646)
+   |    |    |    |    | ['>4RButton13', 'Button129']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D11|高侧壁心肌梗死'    (L-30061, T-30665, R-29914, B-30644)
+   |    |    |    |    | ['D11|高侧壁心肌梗死', 'Static158', 'D11|高侧壁心肌梗死Static']
+   |    |    |    |    | child_window(title="D11|高侧壁心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30637, R-29596, B-30602)
+   |    |    |    | ['TreeItem36', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory34', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem34']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30627, R-30063, B-30611)
+   |    |    |    |    | ['>4RButton14', 'Button130']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D12|心内膜下心肌梗死'    (L-30061, T-30630, R-29898, B-30609)
+   |    |    |    |    | ['D12|心内膜下心肌梗死Static', 'D12|心内膜下心肌梗死', 'Static159']
+   |    |    |    |    | child_window(title="D12|心内膜下心肌梗死", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30602, R-29596, B-30567)
+   |    |    |    | ['TreeItem37', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory35', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem35']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30592, R-30063, B-30576)
+   |    |    |    |    | ['>4RButton15', 'Button131']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'D13|异常Q波'    (L-30061, T-30595, R-29965, B-30574)
+   |    |    |    |    | ['Static160', 'D13|异常Q波', 'D13|异常Q波Static']
+   |    |    |    |    | child_window(title="D13|异常Q波", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30567, R-29596, B-30532)
+   |    |    |    | ['TreeItem38', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory36', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem36']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30557, R-30063, B-30541)
+   |    |    |    |    | ['>4RButton16', 'Button132']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'E|r 波不递增'    (L-30061, T-30560, R-29973, B-30539)
+   |    |    |    |    | ['E|r 波不递增', 'E|r 波不递增Static', 'Static161']
+   |    |    |    |    | child_window(title="E|r 波不递增", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30532, R-29596, B-30497)
+   |    |    |    | ['TreeItem39', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory37', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem37']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30522, R-30063, B-30506)
+   |    |    |    |    | ['>4RButton17', 'Button133']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'F01|左心房肥大'    (L-30061, T-30525, R-29949, B-30504)
+   |    |    |    |    | ['F01|左心房肥大Static', 'F01|左心房肥大', 'Static162']
+   |    |    |    |    | child_window(title="F01|左心房肥大", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30497, R-29596, B-30462)
+   |    |    |    | ['TreeItem40', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory38', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem38']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30487, R-30063, B-30471)
+   |    |    |    |    | ['>4RButton18', 'Button134']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'F02|右心房肥大'    (L-30061, T-30490, R-29949, B-30469)
+   |    |    |    |    | ['F02|右心房肥大', 'F02|右心房肥大Static', 'Static163']
+   |    |    |    |    | child_window(title="F02|右心房肥大", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30462, R-29596, B-30427)
+   |    |    |    | ['TreeItem41', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory39', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem39']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30452, R-30063, B-30436)
+   |    |    |    |    | ['>4RButton19', 'Button135']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'F03|双心房肥大'    (L-30061, T-30455, R-29949, B-30434)
+   |    |    |    |    | ['F03|双心房肥大', 'Static164', 'F03|双心房肥大Static']
+   |    |    |    |    | child_window(title="F03|双心房肥大", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30427, R-29596, B-30392)
+   |    |    |    | ['TreeItem42', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory40', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem40']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30417, R-30063, B-30401)
+   |    |    |    |    | ['>4RButton20', 'Button136']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'F04|左心室肥大'    (L-30061, T-30420, R-29949, B-30399)
+   |    |    |    |    | ['F04|左心室肥大', 'Static165', 'F04|左心室肥大Static']
+   |    |    |    |    | child_window(title="F04|左心室肥大", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30392, R-29596, B-30357)
+   |    |    |    | ['TreeItem43', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory41', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem41']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30382, R-30063, B-30366)
+   |    |    |    |    | ['>4RButton21', 'Button137']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'F05|右心室肥大'    (L-30061, T-30385, R-29949, B-30364)
+   |    |    |    |    | ['F05|右心室肥大Static', 'F05|右心室肥大', 'Static166']
+   |    |    |    |    | child_window(title="F05|右心室肥大", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30357, R-29596, B-30322)
+   |    |    |    | ['TreeItem44', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory42', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem42']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30347, R-30063, B-30331)
+   |    |    |    |    | ['>4RButton22', 'Button138']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'F06|双心室肥大'    (L-30061, T-30350, R-29949, B-30329)
+   |    |    |    |    | ['F06|双心室肥大', 'Static167', 'F06|双心室肥大Static']
+   |    |    |    |    | child_window(title="F06|双心室肥大", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30322, R-29596, B-30287)
+   |    |    |    | ['TreeItem45', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory43', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem43']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30312, R-30063, B-30296)
+   |    |    |    |    | ['>4RButton23', 'Button139']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'G01|ST－T改变'    (L-30061, T-30315, R-29950, B-30294)
+   |    |    |    |    | ['G01|ST－T改变', 'Static168', 'G01|ST－T改变Static']
+   |    |    |    |    | child_window(title="G01|ST－T改变", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30287, R-29596, B-30252)
+   |    |    |    | ['TreeItem46', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory44', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem44']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30277, R-30063, B-30261)
+   |    |    |    |    | ['>4RButton24', 'Button140']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'G02|ST段抬高'    (L-30061, T-30280, R-29960, B-30259)
+   |    |    |    |    | ['G02|ST段抬高Static', 'Static169', 'G02|ST段抬高']
+   |    |    |    |    | child_window(title="G02|ST段抬高", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30252, R-29596, B-30217)
+   |    |    |    | ['TreeItem47', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory45', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem45']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30242, R-30063, B-30226)
+   |    |    |    |    | ['>4RButton25', 'Button141']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'G03|ST段下移（包括NSTEMI）'    (L-30061, T-30245, R-29835, B-30224)
+   |    |    |    |    | ['G03|ST段下移（包括NSTEMI）Static', 'Static170', 'G03|ST段下移（包括NSTEMI）']
+   |    |    |    |    | child_window(title="G03|ST段下移（包括NSTEMI）", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30217, R-29596, B-30182)
+   |    |    |    | ['TreeItem48', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory46', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem46']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30207, R-30063, B-30191)
+   |    |    |    |    | ['>4RButton26', 'Button142']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'G04|T波改变'    (L-30061, T-30210, R-29969, B-30189)
+   |    |    |    |    | ['G04|T波改变', 'Static171', 'G04|T波改变Static']
+   |    |    |    |    | child_window(title="G04|T波改变", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30182, R-29596, B-30147)
+   |    |    |    | ['TreeItem49', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory47', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem47']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30172, R-30063, B-30156)
+   |    |    |    |    | ['>4RButton27', 'Button143']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'H|U波改变'    (L-30061, T-30175, R-29984, B-30154)
+   |    |    |    |    | ['Static172', 'H|U波改变Static', 'H|U波改变']
+   |    |    |    |    | child_window(title="H|U波改变", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30147, R-29596, B-30112)
+   |    |    |    | ['TreeItem50', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory48', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem48']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30137, R-30063, B-30121)
+   |    |    |    |    | ['>4RButton28', 'Button144']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'I|J波'    (L-30061, T-30140, R-30030, B-30119)
+   |    |    |    |    | ['I|J波Static', 'Static173', 'I|J波']
+   |    |    |    |    | child_window(title="I|J波", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30112, R-29596, B-30077)
+   |    |    |    | ['TreeItem51', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory49', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem49']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30102, R-30063, B-30086)
+   |    |    |    |    | ['Button145']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'J|de winter 综合征Wellens综合征'    (L-30061, T-30105, R-29817, B-30084)
+   |    |    |    |    | ['J|de winter 综合征Wellens综合征Static', 'Static174', 'J|de winter 综合征Wellens综合征']
+   |    |    |    |    | child_window(title="J|de winter 综合征Wellens综合征", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30077, R-29596, B-30042)
+   |    |    |    | ['TreeItem52', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory50', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem50']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30067, R-30063, B-30051)
+   |    |    |    |    | ['Button146']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'K01|Q-T延长'    (L-30061, T-30070, R-29967, B-30049)
+   |    |    |    |    | ['K01|Q-T延长', 'Static175', 'K01|Q-T延长Static']
+   |    |    |    |    | child_window(title="K01|Q-T延长", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30042, R-29596, B-30007)
+   |    |    |    | ['TreeItem53', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory51', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem51']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-30032, R-30063, B-30016)
+   |    |    |    |    | ['Button147']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'K02|Q-T缩短'    (L-30061, T-30035, R-29967, B-30014)
+   |    |    |    |    | ['Static176', 'K02|Q-T缩短', 'K02|Q-T缩短Static']
+   |    |    |    |    | child_window(title="K02|Q-T缩短", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-30007, R-29596, B-29972)
+   |    |    |    | ['TreeItem54', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory52', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem52']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29997, R-30063, B-29981)
+   |    |    |    |    | ['Button148']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'L01|典型预激'    (L-30061, T-30000, R-29966, B-29979)
+   |    |    |    |    | ['L01|典型预激', 'L01|典型预激Static', 'Static177']
+   |    |    |    |    | child_window(title="L01|典型预激", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29972, R-29596, B-29937)
+   |    |    |    | ['TreeItem55', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory53', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem53']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29962, R-30063, B-29946)
+   |    |    |    |    | ['Button149']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'L02|不典型预激'    (L-30061, T-29965, R-29950, B-29944)
+   |    |    |    |    | ['L02|不典型预激Static', 'Static178', 'L02|不典型预激']
+   |    |    |    |    | child_window(title="L02|不典型预激", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29937, R-29596, B-29902)
+   |    |    |    | ['TreeItem56', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory54', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem54']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29927, R-30063, B-29911)
+   |    |    |    |    | ['Button150']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'M01|AAI起搏器'    (L-30061, T-29930, R-29947, B-29909)
+   |    |    |    |    | ['M01|AAI起搏器Static', 'M01|AAI起搏器', 'Static179']
+   |    |    |    |    | child_window(title="M01|AAI起搏器", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29902, R-29596, B-29867)
+   |    |    |    | ['TreeItem57', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory55', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem55']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29892, R-30063, B-29876)
+   |    |    |    |    | ['Button151']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'M02|VVI起搏器'    (L-30061, T-29895, R-29948, B-29874)
+   |    |    |    |    | ['Static180', 'M02|VVI起搏器', 'M02|VVI起搏器Static']
+   |    |    |    |    | child_window(title="M02|VVI起搏器", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29867, R-29596, B-29832)
+   |    |    |    | ['TreeItem58', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory56', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem56']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29857, R-30063, B-29841)
+   |    |    |    |    | ['Button152']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'M03|双腔起搏器'    (L-30061, T-29860, R-29942, B-29839)
+   |    |    |    |    | ['M03|双腔起搏器Static', 'M03|双腔起搏器', 'Static181']
+   |    |    |    |    | child_window(title="M03|双腔起搏器", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29832, R-29596, B-29797)
+   |    |    |    | ['TreeItem59', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory57', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem57']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29822, R-30063, B-29806)
+   |    |    |    |    | ['Button153']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'M04|ICD植入术后，反复发作短阵室性心动过速触发ATP治疗模式'    (L-30061, T-29825, R-29596, B-29804)
+   |    |    |    |    | ['M04|ICD植入术后，反复发作短阵室性心动过速触发ATP治疗模式Static', 'Static182', 'M04|ICD植入术后，反复发作短阵室性心动过速触发ATP治疗模式']
+   |    |    |    |    | child_window(title="M04|ICD植入术后，反复发作短阵室性心动过速触发ATP治疗模式", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29797, R-29596, B-29762)
+   |    |    |    | ['TreeItem60', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory58', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem58']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29787, R-30063, B-29771)
+   |    |    |    |    | ['Button154']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'M05|全程未见起搏信号'    (L-30061, T-29790, R-29894, B-29769)
+   |    |    |    |    | ['M05|全程未见起搏信号', 'M05|全程未见起搏信号Static', 'Static183']
+   |    |    |    |    | child_window(title="M05|全程未见起搏信号", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29762, R-29596, B-29727)
+   |    |    |    | ['TreeItem61', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory59', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem59']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29752, R-30063, B-29736)
+   |    |    |    |    | ['Button155']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'N|正常心电图'    (L-30061, T-29755, R-29964, B-29734)
+   |    |    |    |    | ['N|正常心电图', 'N|正常心电图Static', 'Static184']
+   |    |    |    |    | child_window(title="N|正常心电图", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29727, R-29596, B-29692)
+   |    |    |    | ['TreeItem62', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory60', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem60']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29717, R-30063, B-29701)
+   |    |    |    |    | ['Button156']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'O|低电压'    (L-30061, T-29720, R-29996, B-29699)
+   |    |    |    |    | ['O|低电压Static', 'Static185', 'O|低电压']
+   |    |    |    |    | child_window(title="O|低电压", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29692, R-29596, B-29657)
+   |    |    |    | ['TreeItem63', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory61', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem61']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29682, R-30063, B-29666)
+   |    |    |    |    | ['Button157']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'P|电轴偏移'    (L-30061, T-29685, R-29983, B-29664)
+   |    |    |    |    | ['P|电轴偏移Static', 'Static186', 'P|电轴偏移']
+   |    |    |    |    | child_window(title="P|电轴偏移", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29657, R-29596, B-29622)
+   |    |    |    | ['TreeItem64', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory62', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem62']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29647, R-30063, B-29631)
+   |    |    |    |    | ['Button158']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Q|心脏转位'    (L-30061, T-29650, R-29980, B-29629)
+   |    |    |    |    | ['Q|心脏转位', 'Static187', 'Q|心脏转位Static']
+   |    |    |    |    | child_window(title="Q|心脏转位", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29622, R-29596, B-29587)
+   |    |    |    | ['TreeItem65', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory63', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem63']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29612, R-30063, B-29596)
+   |    |    |    |    | ['Button159']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'R01|右位心'    (L-30061, T-29615, R-29979, B-29594)
+   |    |    |    |    | ['R01|右位心Static', 'Static188', 'R01|右位心']
+   |    |    |    |    | child_window(title="R01|右位心", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29587, R-29596, B-29552)
+   |    |    |    | ['TreeItem66', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory64', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem64']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29577, R-30063, B-29561)
+   |    |    |    |    | ['Button160']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'R02|欠合作'    (L-30061, T-29580, R-29979, B-29559)
+   |    |    |    |    | ['R02|欠合作', 'R02|欠合作Static', 'Static189']
+   |    |    |    |    | child_window(title="R02|欠合作", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29552, R-29596, B-29517)
+   |    |    |    | ['TreeItem67', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory65', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem65']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29542, R-30063, B-29526)
+   |    |    |    |    | ['Button161']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'R03|DV1-DV3'    (L-30061, T-29545, R-29956, B-29524)
+   |    |    |    |    | ['R03|DV1-DV3', 'Static190', 'R03|DV1-DV3Static']
+   |    |    |    |    | child_window(title="R03|DV1-DV3", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29517, R-29596, B-29482)
+   |    |    |    | ['TreeItem68', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory66', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem66']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29507, R-30063, B-29491)
+   |    |    |    |    | ['Button162']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'R04|临终心电图'    (L-30061, T-29510, R-29947, B-29489)
+   |    |    |    |    | ['R04|临终心电图Static', 'Static191', 'R04|临终心电图']
+   |    |    |    |    | child_window(title="R04|临终心电图", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29482, R-29596, B-29447)
+   |    |    |    | ['TreeItem69', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory67', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem67']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29472, R-30063, B-29456)
+   |    |    |    |    | ['Button163']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'S01|肺栓塞'    (L-30061, T-29475, R-29981, B-29454)
+   |    |    |    |    | ['S01|肺栓塞', 'Static192', 'S01|肺栓塞Static']
+   |    |    |    |    | child_window(title="S01|肺栓塞", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29447, R-29596, B-29412)
+   |    |    |    | ['TreeItem70', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory68', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem68']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29437, R-30063, B-29421)
+   |    |    |    |    | ['Button164']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'S02|关闭滤波'    (L-30061, T-29440, R-29965, B-29419)
+   |    |    |    |    | ['S02|关闭滤波Static', 'S02|关闭滤波', 'Static193']
+   |    |    |    |    | child_window(title="S02|关闭滤波", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29412, R-29596, B-29377)
+   |    |    |    | ['TreeItem71', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory69', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem69']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29402, R-30063, B-29386)
+   |    |    |    |    | ['Button165']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'T|建议'    (L-30061, T-29405, R-30016, B-29384)
+   |    |    |    |    | ['T|建议Static', 'Static194', 'T|建议']
+   |    |    |    |    | child_window(title="T|建议", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29377, R-29596, B-29342)
+   |    |    |    | ['TreeItem72', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory70', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem70']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29367, R-30063, B-29351)
+   |    |    |    |    | ['Button166']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'U|心得安试验'    (L-30061, T-29370, R-29965, B-29349)
+   |    |    |    |    | ['U|心得安试验Static', 'U|心得安试验', 'Static195']
+   |    |    |    |    | child_window(title="U|心得安试验", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29342, R-29596, B-29307)
+   |    |    |    | ['TreeItem73', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory71', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem71']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29332, R-30063, B-29316)
+   |    |    |    |    | ['Button167']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'V|扶床运动试验'    (L-30061, T-29335, R-29950, B-29314)
+   |    |    |    |    | ['V|扶床运动试验Static', 'Static196', 'V|扶床运动试验']
+   |    |    |    |    | child_window(title="V|扶床运动试验", control_type="Text")
+   |    |    |    | 
+   |    |    |    | TreeItem - 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory'    (L-30081, T-29307, R-29596, B-29272)
+   |    |    |    | ['TreeItem74', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory72', 'Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategoryTreeItem72']
+   |    |    |    | child_window(title="Aquarium.Ecg.Client.Whale.Views.ViewModels.WordCategory", control_type="TreeItem")
+   |    |    |    |    | 
+   |    |    |    |    | Button - ''    (L-30079, T-29297, R-30063, B-29281)
+   |    |    |    |    | ['Button168']
+   |    |    |    |    | child_window(auto_id="Expander", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'W|SⅠSⅡSⅢ'    (L-30061, T-29300, R-29965, B-29279)
+   |    |    |    |    | ['W|SⅠSⅡSⅢStatic', 'W|SⅠSⅡSⅢ', 'Static197']
+   |    |    |    |    | child_window(title="W|SⅠSⅡSⅢ", control_type="Text")
+   |    |    | 
+   |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    | ['W|SⅠSⅡSⅢListBox', 'ListBox']
+   |    |    | child_window(auto_id="SearchWordBox", control_type="List")
+   | 
+   | Static - '加载中...'    (L-31276, T-31537, R-30790, B-31512)
+   | ['加载中...Static', '加载中...', 'Static198']
+   | child_window(title="加载中...", auto_id="WatingMsg", control_type="Text")
+   | 
+   | Image - ''    (L-31286, T-31508, R-30794, B-31327)
+   | ['临床诊断Image', 'Image23']
+   | 
+   | Button - '关 闭'    (L-30890, T-31380, R-30798, B-31345)
+   | ['关 闭Button', '关 闭', 'Button169', '关 闭0', '关 闭1']
+   | child_window(title="关 闭", control_type="Button")
+   |    | 
+   |    | Static - '关 闭'    (L-30862, T-31373, R-30825, B-31352)
+   |    | ['关 闭Static', 'Static199', '关 闭2']
+   |    | child_window(title="关 闭", control_type="Text")
+
+Process finished with exit code 0

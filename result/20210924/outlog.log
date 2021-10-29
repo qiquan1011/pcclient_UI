@@ -1,0 +1,842 @@
+2021-09-24 16:37:13,583-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 47, in acq_check
+    apply_btu.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'menuMore', 'class_name': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 1185290>, 'backend': 'uia'}
+2021-09-24 16:37:18,586-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 57, in acq_check
+    Btu_ok.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'PART_OkButton', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 1185290>, 'backend': 'uia'}
+2021-09-24 16:37:18,586-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 57, in acq_check
+    Btu_ok.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'PART_OkButton', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 1185290>, 'backend': 'uia'}
+2021-09-24 16:37:38,453-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '待诊断', 'control_type': 'Text', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Aquarium.Ecg.Client.Whale.Views.Models.ModelReportPagerRowInfo', , None>, 'backend': 'uia'}
+2021-09-24 16:37:38,453-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '待诊断', 'control_type': 'Text', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Aquarium.Ecg.Client.Whale.Views.Models.ModelReportPagerRowInfo', , None>, 'backend': 'uia'}
+2021-09-24 16:37:38,453-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+Duing handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '待诊断', 'control_type': 'Text', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Aquarium.Ecg.Client.Whale.Views.Models.ModelReportPagerRowInfo', , None>, 'backend': 'uia'}
+2021-09-24 16:37:38,455-error-DEBUG-Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+2021-09-24 16:37:38,455-error-DEBUG-Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+2021-09-24 16:37:38,455-error-DEBUG-Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+2021-09-24 16:37:38,455-error-DEBUG-Traceback (most recent call last):
+  File "D:/pythonProject/pcclient_UI/pageObject/acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 16:46:27,788-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 47, in acq_check
+    apply_btu.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'menuMore', 'class_name': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 3473668>, 'backend': 'uia'}
+
+2021-09-24 16:46:33,007-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 57, in acq_check
+    Btu_ok.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'PART_OkButton', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 3473668>, 'backend': 'uia'}
+
+2021-09-24 16:46:33,007-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 57, in acq_check
+    Btu_ok.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'PART_OkButton', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 3473668>, 'backend': 'uia'}
+
+2021-09-24 16:46:38,527-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 68, in acq_check
+    checked.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '已检查', 'control_type': 'RadioButton', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 3473668>, 'backend': 'uia'}
+
+2021-09-24 16:46:38,527-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 68, in acq_check
+    checked.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '已检查', 'control_type': 'RadioButton', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 3473668>, 'backend': 'uia'}
+
+2021-09-24 16:46:38,527-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 68, in acq_check
+    checked.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '已检查', 'control_type': 'RadioButton', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 3473668>, 'backend': 'uia'}
+
+2021-09-24 16:46:39,448-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 84, in find_element
+    elements = find_elements(**kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 305, in find_elements
+    elements = findbestmatch.find_best_control_matches(best_match, wrapped_elems)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 495, in find_best_control_matches
+    name_control_map = build_unique_dict(controls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 474, in build_unique_dict
+    ctrl_names = get_control_names(ctrl, controls, text_ctrls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 320, in get_control_names
+    non_text_names = get_non_text_control_name(control, allcontrols, textcontrols)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 218, in get_non_text_control_name
+    text_r = text_ctrl.rectangle()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\base_wrapper.py", line 367, in rectangle
+    return self.element_info.rectangle
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\uia_element_info.py", line 326, in rectangle
+    bound_rect = self._element.CurrentBoundingRectangle
+_ctypes.COMError: (-2147220991, '事件无法调用任何订户', (None, None, None, 0, None))
+
+2021-09-24 16:46:39,448-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 84, in find_element
+    elements = find_elements(**kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 305, in find_elements
+    elements = findbestmatch.find_best_control_matches(best_match, wrapped_elems)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 495, in find_best_control_matches
+    name_control_map = build_unique_dict(controls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 474, in build_unique_dict
+    ctrl_names = get_control_names(ctrl, controls, text_ctrls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 320, in get_control_names
+    non_text_names = get_non_text_control_name(control, allcontrols, textcontrols)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 218, in get_non_text_control_name
+    text_r = text_ctrl.rectangle()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\base_wrapper.py", line 367, in rectangle
+    return self.element_info.rectangle
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\uia_element_info.py", line 326, in rectangle
+    bound_rect = self._element.CurrentBoundingRectangle
+_ctypes.COMError: (-2147220991, '事件无法调用任何订户', (None, None, None, 0, None))
+
+2021-09-24 16:46:39,448-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 84, in find_element
+    elements = find_elements(**kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 305, in find_elements
+    elements = findbestmatch.find_best_control_matches(best_match, wrapped_elems)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 495, in find_best_control_matches
+    name_control_map = build_unique_dict(controls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 474, in build_unique_dict
+    ctrl_names = get_control_names(ctrl, controls, text_ctrls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 320, in get_control_names
+    non_text_names = get_non_text_control_name(control, allcontrols, textcontrols)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 218, in get_non_text_control_name
+    text_r = text_ctrl.rectangle()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\base_wrapper.py", line 367, in rectangle
+    return self.element_info.rectangle
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\uia_element_info.py", line 326, in rectangle
+    bound_rect = self._element.CurrentBoundingRectangle
+_ctypes.COMError: (-2147220991, '事件无法调用任何订户', (None, None, None, 0, None))
+
+2021-09-24 16:46:39,448-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 84, in find_element
+    elements = find_elements(**kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 305, in find_elements
+    elements = findbestmatch.find_best_control_matches(best_match, wrapped_elems)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 495, in find_best_control_matches
+    name_control_map = build_unique_dict(controls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 474, in build_unique_dict
+    ctrl_names = get_control_names(ctrl, controls, text_ctrls)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 320, in get_control_names
+    non_text_names = get_non_text_control_name(control, allcontrols, textcontrols)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findbestmatch.py", line 218, in get_non_text_control_name
+    text_r = text_ctrl.rectangle()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\base_wrapper.py", line 367, in rectangle
+    return self.element_info.rectangle
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\uia_element_info.py", line 326, in rectangle
+    bound_rect = self._element.CurrentBoundingRectangle
+_ctypes.COMError: (-2147220991, '事件无法调用任何订户', (None, None, None, 0, None))
+
+2021-09-24 16:46:39,450-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 16:46:39,450-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 16:46:39,450-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 16:46:39,450-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 16:46:39,450-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 18:09:35,897-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 47, in acq_check
+    apply_btu.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'menuMore', 'class_name': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 983170>, 'backend': 'uia'}
+
+2021-09-24 18:09:41,273-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 57, in acq_check
+    Btu_ok.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'PART_OkButton', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 983170>, 'backend': 'uia'}
+
+2021-09-24 18:09:41,273-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 57, in acq_check
+    Btu_ok.click()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'auto_id': 'PART_OkButton', 'control_type': 'Button', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - '心电检查客户端', Window, 983170>, 'backend': 'uia'}
+
+2021-09-24 18:09:58,332-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '待诊断', 'control_type': 'Text', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Aquarium.Ecg.Client.Whale.Views.Models.ModelReportPagerRowInfo', DataGridRow, None>, 'backend': 'uia'}
+
+2021-09-24 18:09:58,332-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '待诊断', 'control_type': 'Text', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Aquarium.Ecg.Client.Whale.Views.Models.ModelReportPagerRowInfo', DataGridRow, None>, 'backend': 'uia'}
+
+2021-09-24 18:09:58,332-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 258, in __resolve_control
+    criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 75, in acq_check
+    diagnosed_text=diagnosed.window_text()
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 379, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\application.py", line 222, in __get_ctrl
+    ctrl = self.backend.generic_wrapper_class(findwindows.find_element(**ctrl_criteria))
+  File "D:\pythonProject\pcclient_UI\venv\lib\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': '待诊断', 'control_type': 'Text', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Aquarium.Ecg.Client.Whale.Views.Models.ModelReportPagerRowInfo', DataGridRow, None>, 'backend': 'uia'}
+
+2021-09-24 18:09:58,337-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 18:09:58,337-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 18:09:58,337-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 18:09:58,337-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq.capture_as_image().save("../testFile/123.png")
+AttributeError: 'Acq_Main_Locator' object has no attribute 'capture_as_image'
+
+2021-09-24 18:09:58,340-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:09:58,340-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:09:58,340-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:09:58,340-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:09:58,340-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:14:48,710-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 18, in acq_check
+    patient_name=self.acq[0].Patientname()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:14:48,711-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 26, in acq_check
+    patient_age=self.acq[0].Age()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:14:48,711-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 26, in acq_check
+    patient_age=self.acq[0].Age()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:14:48,711-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 33, in acq_check
+    save_And_check=self.acq[0].Save_And_Check()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:14:48,711-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 33, in acq_check
+    save_And_check=self.acq[0].Save_And_Check()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:14:48,711-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 33, in acq_check
+    save_And_check=self.acq[0].Save_And_Check()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,718-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 46, in acq_check
+    apply_btu=self.acq[0].Apply()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,718-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 46, in acq_check
+    apply_btu=self.acq[0].Apply()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,718-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 46, in acq_check
+    apply_btu=self.acq[0].Apply()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,718-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 46, in acq_check
+    apply_btu=self.acq[0].Apply()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 56, in acq_check
+    Btu_ok=self.acq[0].Ok_Btu()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 56, in acq_check
+    Btu_ok=self.acq[0].Ok_Btu()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 56, in acq_check
+    Btu_ok=self.acq[0].Ok_Btu()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 56, in acq_check
+    Btu_ok=self.acq[0].Ok_Btu()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 56, in acq_check
+    Btu_ok=self.acq[0].Ok_Btu()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 67, in acq_check
+    checked=self.acq[0].Checked()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 67, in acq_check
+    checked=self.acq[0].Checked()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 67, in acq_check
+    checked=self.acq[0].Checked()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 67, in acq_check
+    checked=self.acq[0].Checked()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 67, in acq_check
+    checked=self.acq[0].Checked()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,719-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 67, in acq_check
+    checked=self.acq[0].Checked()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,720-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 74, in acq_check
+    diagnosed=self.acq[0].Diagnosed()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,720-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 74, in acq_check
+    diagnosed=self.acq[0].Diagnosed()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,720-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 74, in acq_check
+    diagnosed=self.acq[0].Diagnosed()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,720-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 74, in acq_check
+    diagnosed=self.acq[0].Diagnosed()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,720-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 74, in acq_check
+    diagnosed=self.acq[0].Diagnosed()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,720-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 74, in acq_check
+    diagnosed=self.acq[0].Diagnosed()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,720-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 74, in acq_check
+    diagnosed=self.acq[0].Diagnosed()
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,734-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\pageObject\acq_main_object.py", line 82, in acq_check
+    self.acq[1].capture_as_image().save("../testFile/123.png")
+TypeError: 'Acq_Main_Locator' object is not subscriptable
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
+2021-09-24 18:15:03,735-error-DEBUG-Traceback (most recent call last):
+  File "D:\pythonProject\pcclient_UI\testCase\test_check_report.py", line 10, in test_01
+    assert diagnosed_text=="待诊断"
+AssertionError: assert None == '待诊断'
+
